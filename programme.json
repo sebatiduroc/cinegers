@@ -1,0 +1,530 @@
+{
+ "genere_le": "2026-11-21T17:00+01:00",
+ "du": "2026-11-21",
+ "au": "2026-11-27",
+ "cinemas": [
+  {
+   "id": "P1039",
+   "ville": "Lectoure",
+   "nom": "Le Sénéchal"
+  },
+  {
+   "id": "P1051",
+   "ville": "Fleurance",
+   "nom": "Grand Angle"
+  },
+  {
+   "id": "P1042",
+   "ville": "Mauvezin",
+   "nom": "Ciné Mauv'"
+  }
+ ],
+ "films": {
+  "1000012316": {
+   "titre": "Le Mystère Lucy Lost",
+   "titre_original": "Le Mystère Lucy Lost",
+   "affiche": "https://all.web.img.acsta.net/img/37/8b/378b27edb6f6e4af9118a32aa23bce23.jpg",
+   "genres": "Animation, Famille, Aventure",
+   "duree_min": 89,
+   "realisateurs": [
+    "Olivier Clert"
+   ],
+   "acteurs": [
+    "Charlie Rosenzweig",
+    "Zach Valentin-Dattas",
+    "Jessica Monceau",
+    "Quentin Faure",
+    "Keanu Peyran"
+   ],
+   "synopsis": "Lucy vit avec sa famille dans un village sur une petite île isolée. Ses dons extraordinaires suscitent le rejet des habitants. Lorsqu'elle rencontre Milly - une petite fille qu'elle seule peut voir - Lucy embarque dans une grande aventure pour percer le secret de ses mystérieux pouvoirs."
+  },
+  "1000020311": {
+   "titre": "Moulin",
+   "titre_original": "Moulin",
+   "affiche": "https://all.web.img.acsta.net/img/0f/7f/0f7fb216155bf7bcf7bb69d9e2f65310.jpg",
+   "genres": "Drame, Historique",
+   "duree_min": 134,
+   "realisateurs": [
+    "László Nemes"
+   ],
+   "acteurs": [
+    "Gilles Lellouche",
+    "Lars Eidinger",
+    "Louise Bourgoin",
+    "Félix Lefebvre",
+    "Max Warburton",
+    "Hans Peterson"
+   ],
+   "synopsis": "Juin 1943, Jean Moulin, chef de la Résistance, est arrêté alors qu'il tente de réunifier les forces de l’Armée Secrète. Interrogé par Klaus Barbie, le chef de la Gestapo de Lyon, Moulin est entraîné dans une confrontation implacable. Son ultime combat face à la manipulation et la brutalité commence.  Le destin de la France libre en dépend."
+  },
+  "1000026725": {
+   "titre": "Une femme aujourd’hui",
+   "titre_original": "Une femme aujourd’hui",
+   "affiche": "https://all.web.img.acsta.net/img/92/7f/927fd5891c142dc643f5851ba85d8393.jpg",
+   "genres": "Comédie dramatique",
+   "duree_min": null,
+   "realisateurs": [
+    "Robert Guédiguian"
+   ],
+   "acteurs": [
+    "Marilou Aussilloux",
+    "Ariane Ascaride",
+    "Jean-Pierre Darroussin",
+    "Grégoire Leprince-Ringuet",
+    "Gérard Meylan",
+    "Lola Naymark"
+   ],
+   "synopsis": "Juliette, 30 ans, semble avoir tout pour elle : un poste prestigieux dans la finance, une belle maison, une vie rythmée par les voyages et les amours de passage. Lorsqu’elle est agressée par un collègue, son monde s’effondre. Juliette s'engage alors sur un nouveau chemin pour redonner un sens à sa vie."
+  },
+  "1000031925": {
+   "titre": "Un bon patron",
+   "titre_original": "Un bon patron",
+   "affiche": "https://all.web.img.acsta.net/img/e0/fa/e0fa1b691ed74bcdc54a9761aa33dbb4.jpg",
+   "genres": "Comédie",
+   "duree_min": 87,
+   "realisateurs": [
+    "Philippe de Chauveron"
+   ],
+   "acteurs": [
+    "Didier Bourdon",
+    "Catherine Frot",
+    "Jean-François Cayrey",
+    "François Levantal",
+    "Ludmilla von Claer",
+    "Patrick Ligardes"
+   ],
+   "synopsis": "En quelques jours seulement, tout semble virer à la catastrophe pour Antoine Blanchet, héritier de l’ancestrale fabrique familiale de balances. Un ex-employé viré qui proteste bruyamment et campe devant l’usine ; Un contremaître qui met en péril la production, parce que sa femme le trompe ; Une stagiaire irrésistible qui fait tourner les têtes… À la veille de recevoir un prix d’excellence censé honorer son usine, il doit, en urgence, sauver l’entreprise et maintenir le calme dans son petit univers bien organisé. Il s’y attelle, à sa manière, paternaliste et autoritaire : en bon patron ?"
+  },
+  "1000033620": {
+   "titre": "Irish Travellers",
+   "titre_original": "Tin Castle",
+   "affiche": "https://all.web.img.acsta.net/img/68/57/6857fdb3b89fdd00da7d32b5f2faea69.jpg",
+   "genres": "Documentaire",
+   "duree_min": 96,
+   "realisateurs": [
+    "Alexander Murphy"
+   ],
+   "acteurs": [
+    "Pa O’Reilly",
+    "Lisa O'Reilly",
+    "Sean O’Reilly",
+    "Paddy O’Reilly",
+    "Chantelle O’Reilly",
+    "Tina O’Reilly"
+   ],
+   "synopsis": "Le long d'une route oubliée, la famille O'Reilly vit dans une vieille caravane échouée au milieu des champs. Pa, Lisa et leurs dix enfants traversent les saisons dans ce fragile château de tôle, héritiers d'un mode de vie en sursis. Menacés d'expulsion, leur équilibre de fortune vacille mais ils résistent, fidèles à leurs traditions. Les enfants rient, les chiens aboient, la caravane tient encore, mais pour combien de temps ?"
+  },
+  "1000034007": {
+   "titre": "Scrooge",
+   "titre_original": "Ebenezer",
+   "affiche": "https://all.web.img.acsta.net/img/ee/1d/ee1d9a9f275b9d7332cf8dff0c5dfd27.jpg",
+   "genres": "Fantastique, Drame, Aventure",
+   "duree_min": 116,
+   "realisateurs": [
+    "Ti West"
+   ],
+   "acteurs": [
+    "Johnny Depp",
+    "Rupert Grint",
+    "Daisy Ridley",
+    "Sam Claflin",
+    "Ian McKellen",
+    "Andrea Riseborough"
+   ],
+   "synopsis": "Pour changer son futur, Scrooge va revivre son passé."
+  },
+  "1000039483": {
+   "titre": "Il faut brûler Maman",
+   "titre_original": "Il faut brûler Maman",
+   "affiche": "https://all.web.img.acsta.net/img/b7/22/b722617d1263956a4b556c739a49afc3.jpg",
+   "genres": "Comédie",
+   "duree_min": 81,
+   "realisateurs": [
+    "Albert Dupontel"
+   ],
+   "acteurs": [
+    "Louise Coldefy",
+    "Julia Piaton",
+    "Artus",
+    "Albert Dupontel",
+    "Johann Dionnet",
+    "Frédéric Epaud"
+   ],
+   "synopsis": "Dans une famille de croque-morts, deux sœurs et un frère se retrouvent pour les funérailles de leur mère. Le personnel étant en grève, ils doivent accomplir le protocole funéraire par eux-mêmes. Comment s’accorder pour brûler Maman ?"
+  },
+  "1000040172": {
+   "titre": "15/18",
+   "titre_original": "15/18",
+   "affiche": "https://all.web.img.acsta.net/img/04/a4/04a4c539c199c806d48c2f2e4eaf6607.jpg",
+   "genres": "Drame",
+   "duree_min": 104,
+   "realisateurs": [
+    "Cédric Kahn"
+   ],
+   "acteurs": [
+    "Zoé Monpart",
+    "Malou Khebizi",
+    "Kenji Peyran",
+    "Raphaël Besson",
+    "Patience Munchenbach",
+    "Ahleme Sahraoui"
+   ],
+   "synopsis": "Lucia, 17 ans, est amenée par la police dans une unité de soins pédopsychiatriques de l’hôpital public. Ici tous les patients ont entre 15 et 18 ans. Lucia connaît l’endroit, elle y a fait de nombreux séjours. Elle retrouve son amie Eloïse, en hospitalisation longue durée, mais aussi Yasmine, Camilia, Ulysse, André… tous ont des pathologies et des parcours différents. Les médecins les soignent, les écoutent, reçoivent leurs parents, tout en gérant un service en surchauffe. Mais un jour, l’arrivée du mystérieux Enzo menace de tout bouleverser."
+  },
+  "298024": {
+   "titre": "Wild Horse Nine",
+   "titre_original": "Wild Horse Nine",
+   "affiche": "https://all.web.img.acsta.net/img/19/2c/192c21b88207a32bb9c1a043c51f053b.jpg",
+   "genres": "Thriller",
+   "duree_min": 118,
+   "realisateurs": [
+    "Martin McDonagh"
+   ],
+   "acteurs": [
+    "Sam Rockwell",
+    "John Malkovich",
+    "Steve Buscemi",
+    "Parker Posey",
+    "Tom Waits",
+    "Mariana Di Girólamo"
+   ],
+   "synopsis": "Peu avant le coup d'État chilien de 1973, deux agents de la CIA, Chris et Lee, sont envoyés de Santiago vers l'île de Pâques par leur supérieur, MJ. Au milieu des statues emblématiques de l'île, tandis que ces partenaires de longue date sont confrontés à leur sombre passé et aux complots en cours, Chris noue une relation avec deux étudiantes rebelles qui menace de faire basculer dans le chaos leur séjour dans ce paradis isolé…"
+  },
+  "312529": {
+   "titre": "Billie, à la croisée des mondes",
+   "titre_original": "Hexed",
+   "affiche": "https://all.web.img.acsta.net/img/e1/e2/e1e26762a29dabe9fec6d1bf189bb4fa.jpg",
+   "genres": "Animation, Famille, Fantastique, Aventure, Comédie",
+   "duree_min": 106,
+   "realisateurs": [
+    "Fawn Veerasunthorn",
+    "Jason Hand",
+    "Josie Trinidad"
+   ],
+   "acteurs": [
+    "Chloé Jouannet",
+    "Valérie Siclay",
+    "Jodie Foster",
+    "Jeremy Ferrari",
+    "Nathalie Kanoui",
+    "Franck Vincent"
+   ],
+   "synopsis": "Billie est une adolescente impulsive et anticonformiste. Lorsque la jeune fille libère accidentellement des pouvoirs magiques dont elle ignorait l’existence, elle se retrouve propulsée bien au-delà de sa banlieue ordinaire, dans une aventure spectaculaire au cœur de Hexe, un vaste royaume magique. Contrainte de faire équipe avec sa mère ultra protectrice, la prudente Alice, elle met à jour des secrets de famille susceptibles de transformer à jamais le monde des sorcières…"
+  },
+  "313265": {
+   "titre": "Astérix - Le Royaume de Nubie",
+   "titre_original": "Astérix - Le Royaume de Nubie",
+   "affiche": "https://all.web.img.acsta.net/img/5d/82/5d822abd6caebdff0b065a16e93b7f76.jpg",
+   "genres": "Animation, Famille, Aventure, Comédie, Historique",
+   "duree_min": 86,
+   "realisateurs": [
+    "Alexandre Heboyan"
+   ],
+   "acteurs": [
+    "Christian Clavier",
+    "François-Xavier Demaison",
+    "Bernard Alane",
+    "Issa Doumbia",
+    "François De Brauer",
+    "Eye Haïdara"
+   ],
+   "synopsis": "Un village d’irréductibles Gaulois résiste encore et toujours à l’envahisseur… Mais pour combien de temps encore ? Un élixir de jouvence accidentellement versé dans la potion magique a transformé tout le village en enfants ! Une seule solution pour Astérix et Obélix : voyager loin, très loin… Jusqu’au Royaume de Nubie, où se trouve l’antidote qui sauvera le village !"
+  },
+  "316136": {
+   "titre": "Camembert",
+   "titre_original": "Camembert",
+   "affiche": "https://all.web.img.acsta.net/img/de/01/de019123ff2a620ecfc2c45bc743ab01.jpg",
+   "genres": "Comédie",
+   "duree_min": 91,
+   "realisateurs": [
+    "Matthieu Rumani",
+    "Nicolas Slomka"
+   ],
+   "acteurs": [
+    "Kristin Scott Thomas",
+    "Alex Lutz",
+    "Pascale Arbillot",
+    "Bernard Le Coq",
+    "Panayotis Pascot",
+    "Anaïde Rozam"
+   ],
+   "synopsis": "Stan, trentenaire d’origine modeste, rencontre pour la première fois la famille de sa petite amie Cléo. Il découvre alors la tradition familiale : à chaque anniversaire de France, l’impressionnante maîtresse de maison, on lance une partie de Trivial Pursuit ©. Il sait qu’il n’a aucune chance face à ces amoureux de la culture, mais il n’a pas le choix : toute la famille doit participer, sans exception. Qu’est-ce qui pourrait mal tourner ? Après tout ce n’est qu’un jeu de société…"
+  },
+  "318225": {
+   "titre": "La Gradiva",
+   "titre_original": "La Gradiva",
+   "affiche": "https://all.web.img.acsta.net/img/23/a7/23a7c2106f6141b87e1381da3beaf635.jpg",
+   "genres": "Drame, Comédie",
+   "duree_min": 145,
+   "realisateurs": [
+    "Marine Atlan"
+   ],
+   "acteurs": [
+    "Antonia Buresi",
+    "Colas Quignard",
+    "Suzanne Gerin",
+    "Mitia Capellier-Audat",
+    "Rouge Isaac",
+    "Hadya Fofana"
+   ],
+   "synopsis": "Un groupe de lycéens français part en voyage scolaire à Naples pour découvrir les ruines de Pompéi et ses corps pétrifiés par le Vésuve. C’est là que le vertige les saisit brutalement. L’un après l’autre, ils se laissent submerger par le désir et la colère jusqu’à s’y abandonner complètement."
+  },
+  "321790": {
+   "titre": "Le Corset",
+   "titre_original": "Le Corset",
+   "affiche": "https://all.web.img.acsta.net/img/a7/96/a796a67caa5bdab1508d9207abaf5284.jpg",
+   "genres": "Animation, Famille",
+   "duree_min": 91,
+   "realisateurs": [
+    "Louis Clichy"
+   ],
+   "acteurs": [
+    "Gary Clichy",
+    "Rod Paradot",
+    "Brune Moulin",
+    "Dimitri Colas",
+    "Alexandre Astier",
+    "Aurélie Vassort"
+   ],
+   "synopsis": "Dans une ferme au cœur de la Beauce, Christophe, 11 ans, règle ses pas sur ceux de son père. Mais à l’école, à la maison, sur le tracteur, Christophe penche... et tombe. Il est obligé de porter un corset pour filer droit. Tandis que la ferme traverse des moments difficiles, Christophe grandit comme il peut. Il découvre la musique et fait la rencontre de Clara, avec qui tout semble devenir possible."
+  },
+  "322884": {
+   "titre": "Wicker",
+   "titre_original": "Wicker",
+   "affiche": "https://all.web.img.acsta.net/img/ab/60/ab608b1c170d26c4f05010e93cdcb0ac.jpg",
+   "genres": "Romance, Drame, Fantastique, Comédie",
+   "duree_min": 105,
+   "realisateurs": [
+    "Alex Huston Fischer",
+    "Eleanor Wilson"
+   ],
+   "acteurs": [
+    "Olivia Colman",
+    "Alexander Skarsgård",
+    "Peter Dinklage",
+    "Elizabeth Debicki",
+    "Marli Siu",
+    "Nabhaan Rizwan"
+   ],
+   "synopsis": "Mise au ban de son village, une pêcheuse solitaire commande au vannier local un mari en osier. Cet époux improbable se révèle doté d’une sensibilité et de talents qui dépassent toutes ses attentes. À son contact, elle découvre un désir insoupçonné et, peu à peu, s’éprend véritablement de lui. Mais bientôt, son étrange mari attise les convoitises, la jalousie et les fantasmes des villageois, faisant vaciller les certitudes d’une communauté jusque-là bien ordonnée."
+  },
+  "323550": {
+   "titre": "L'Affaire Marie-Claire",
+   "titre_original": "L'Affaire Marie-Claire",
+   "affiche": "https://all.web.img.acsta.net/img/4a/3c/4a3cf95bb345d5d71bdc7acf3430323b.jpg",
+   "genres": "Thriller, Judiciaire, Historique",
+   "duree_min": 102,
+   "realisateurs": [
+    "Lauriane Escaffre",
+    "Yvo Muller"
+   ],
+   "acteurs": [
+    "Charlotte Gainsbourg",
+    "Cécile de France",
+    "Grégory Gadebois",
+    "Saül Benchetrit",
+    "Sarah Suco",
+    "Florence Loiret Caille"
+   ],
+   "synopsis": "Novembre 1972. Au tribunal de Bobigny, un procès hors norme secoue la France entière. Marie-Claire Chevalier, 16 ans, est accusée d’avoir avorté illégalement. À la barre, sa mère et toutes les femmes qui l’ont aidée. Leur avocate, Gisèle Halimi, fait un pari fou, insensé : elle leur demande de ne pas plaider coupable. Gisèle va faire ce qui n’a jamais été fait auparavant, elle va accuser et attaquer la loi, au risque de tout perdre."
+  },
+  "986": {
+   "titre": "Voyage à Tokyo",
+   "titre_original": "Tôkyô monogatari",
+   "affiche": "https://all.web.img.acsta.net/pictures/18/07/17/16/54/0924786.jpg",
+   "genres": "Drame",
+   "duree_min": 136,
+   "realisateurs": [
+    "Yasujirô Ozu"
+   ],
+   "acteurs": [
+    "Chishû Ryû",
+    "Chieko Higashiyama",
+    "Setsuko Hara",
+    "Haruko Sugimura",
+    "Sô Yamamura",
+    "Kuniko Miyake"
+   ],
+   "synopsis": "Un couple âgé entreprend un voyage pour rendre visite à ses enfants. D’abord accueillis avec les égards qui leur sont dus, les parents s’avèrent bientôt dérangeants. Seule Noriko, la veuve de leur fils mort à la guerre, semble réellement contente de les voir et trouve du temps à leur consacrer. Les enfants, quant à eux, se cotisent pour leur offrir un séjour dans la station thermale d’Atami, loin de Tokyo…"
+  }
+ },
+ "seances": [
+  {
+   "date": "2026-11-21",
+   "time": "17:00",
+   "cinema": "P1039",
+   "movie": "318225",
+   "version": "VF",
+   "screen": "SALLE 2"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "17:00",
+   "cinema": "P1039",
+   "movie": "986",
+   "version": "VOSTFR",
+   "screen": "SALLE 1"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "21:00",
+   "cinema": "P1039",
+   "movie": "316136",
+   "version": "VF",
+   "screen": "SALLE 1"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "21:00",
+   "cinema": "P1039",
+   "movie": "323550",
+   "version": "VF",
+   "screen": "SALLE 2"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "16:00",
+   "cinema": "P1042",
+   "movie": "313265",
+   "version": "VF",
+   "screen": "CINEMA DE MAUVEZIN"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "17:30",
+   "cinema": "P1039",
+   "movie": "1000012316",
+   "version": "VF",
+   "screen": "SALLE 2"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "17:30",
+   "cinema": "P1039",
+   "movie": "322884",
+   "version": "VOSTFR",
+   "screen": "SALLE 1"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "20:30",
+   "cinema": "P1039",
+   "movie": "1000020311",
+   "version": "VF",
+   "screen": "SALLE 1"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "20:30",
+   "cinema": "P1039",
+   "movie": "298024",
+   "version": "VOSTFR",
+   "screen": "SALLE 2"
+  },
+  {
+   "date": "2026-11-23",
+   "time": "19:00",
+   "cinema": "P1039",
+   "movie": "1000033620",
+   "version": "VOSTFR",
+   "screen": "SALLE 2"
+  },
+  {
+   "date": "2026-11-23",
+   "time": "19:00",
+   "cinema": "P1039",
+   "movie": "323550",
+   "version": "VF",
+   "screen": "SALLE 1"
+  },
+  {
+   "date": "2026-11-23",
+   "time": "20:30",
+   "cinema": "P1042",
+   "movie": "1000026725",
+   "version": "VF",
+   "screen": "CINEMA DE MAUVEZIN"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "21:00",
+   "cinema": "P1039",
+   "movie": "1000031925",
+   "version": "VF",
+   "screen": "SALLE 2"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "21:00",
+   "cinema": "P1039",
+   "movie": "1000040172",
+   "version": "VF",
+   "screen": "SALLE 1"
+  },
+  {
+   "date": "2026-11-25",
+   "time": "16:30",
+   "cinema": "P1042",
+   "movie": "312529",
+   "version": "VF",
+   "screen": "CINEMA DE MAUVEZIN"
+  },
+  {
+   "date": "2026-11-25",
+   "time": "20:30",
+   "cinema": "P1039",
+   "movie": "316136",
+   "version": "VF",
+   "screen": "SALLE 1"
+  },
+  {
+   "date": "2026-11-25",
+   "time": "20:30",
+   "cinema": "P1039",
+   "movie": "321790",
+   "version": "VF",
+   "screen": "SALLE 2"
+  },
+  {
+   "date": "2026-11-26",
+   "time": "19:00",
+   "cinema": "P1039",
+   "movie": "1000039483",
+   "version": "VF",
+   "screen": "SALLE 1"
+  },
+  {
+   "date": "2026-11-26",
+   "time": "19:00",
+   "cinema": "P1039",
+   "movie": "312529",
+   "version": "VF",
+   "screen": "SALLE 2"
+  },
+  {
+   "date": "2026-11-26",
+   "time": "20:00",
+   "cinema": "P1042",
+   "movie": "1000034007",
+   "version": "VF",
+   "screen": "CINEMA DE MAUVEZIN"
+  },
+  {
+   "date": "2026-11-27",
+   "time": "20:30",
+   "cinema": "P1039",
+   "movie": "1000034007",
+   "version": "VF",
+   "screen": "SALLE 1"
+  },
+  {
+   "date": "2026-11-27",
+   "time": "20:30",
+   "cinema": "P1039",
+   "movie": "1000040172",
+   "version": "VF",
+   "screen": "SALLE 2"
+  }
+ ],
+ "erreurs": []
+}
