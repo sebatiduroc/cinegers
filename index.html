@@ -52,6 +52,7 @@ h2{font-size:1.25rem;margin:.5rem 0 1rem}
 .cin{margin:.35rem 0}
 .cin-name{display:flex;align-items:center;gap:.45rem;font-size:.9rem;font-weight:600}
 .cin-name i{width:.7rem;height:.7rem;border-radius:50%;background:var(--c)}
+.evt{margin:.3rem 0 0;font-size:.85rem;color:var(--mute)}
 .cin-name small{font-weight:400;color:var(--mute)}
 ul.times{list-style:none;margin:.3rem 0 0;padding:0;display:flex;flex-wrap:wrap;gap:.4rem}
 .t{display:inline-flex;align-items:stretch;border:1px solid var(--line);border-radius:.4rem;overflow:hidden;
@@ -142,7 +143,8 @@ function times(list, now) {
 function cinemaBlock(c, list, now) {
   return h("div", { class: "cin", style: `--c:var(--c-${c.id})` },
     h("div", { class: "cin-name" }, h("i"), c.ville, h("small", {}, c.nom)),
-    times(list, now));
+    times(list, now),
+    [...new Set(list.map(s => s.evenement).filter(Boolean))].map(e => h("p", { class: "evt" }, e)));
 }
 
 function renderBar() {
@@ -235,7 +237,9 @@ async function init() {
   $("#foot").replaceChildren(
     h("p", {}, `Programme mis à jour le ${maj}. Sources : `,
       h("a", { href: "https://www.cine32gers.com/" }, "Ciné 32"),
-      " (séances, versions, fiches) et AlloCiné (affiches). Les horaires peuvent changer : vérifiez auprès du cinéma.")
+      " (Lectoure, Mauvezin) et ",
+      h("a", { href: "https://cinegrandangle.fr/programme" }, "Cinéma Grand Angle"),
+      " (Fleurance). Affiches : AlloCiné et Grand Angle. Les horaires peuvent changer : vérifiez auprès du cinéma.")
   );
   render();
 }

@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-"""Collecte le programme des cinémas Ciné 32 de Lectoure, Fleurance et Mauvezin.
+"""Collecte le programme des cinémas de Lectoure, Fleurance et Mauvezin.
 
-Source : l'API publique utilisée par le site cine32gers.com (séances, version,
-réalisateur, casting, synopsis, affiche). Écrit programme.json à la racine du dépôt.
+Sources :
+- Lectoure et Mauvezin : l'API utilisée par le site cine32gers.com (Ciné 32) ;
+- Fleurance (Grand Angle) : les données publiées par cinegrandangle.fr.
+Écrit programme.json à la racine du dépôt.
 Aucune dépendance : bibliothèque standard uniquement (Python 3.9+).
 """
 import json
@@ -17,10 +19,11 @@ from zoneinfo import ZoneInfo
 BASE = "https://www.cine32gers.com/api/gatsby-source-boxofficeapi"
 TZ = "Europe/Paris"
 DAYS = 7  # aujourd'hui + 6 jours
+GA_BASE = "https://cinegrandangle.fr"
 CINEMAS = [
-    {"id": "P1039", "ville": "Lectoure", "nom": "Le Sénéchal"},
-    {"id": "P1051", "ville": "Fleurance", "nom": "Grand Angle"},
-    {"id": "P1042", "ville": "Mauvezin", "nom": "Ciné Mauv'"},
+    {"id": "P1039", "ville": "Lectoure", "nom": "Le Sénéchal", "source": "cine32"},
+    {"id": "P1051", "ville": "Fleurance", "nom": "Grand Angle", "source": "grandangle"},
+    {"id": "P1042", "ville": "Mauvezin", "nom": "Ciné Mauv'", "source": "cine32"},
 ]
 OUT = Path(__file__).resolve().parent.parent / "programme.json"
 HEADERS = {
@@ -30,16 +33,20 @@ HEADERS = {
 }
 
 
-def get_json(url, tries=3):
+def get_text(url, tries=3):
     for i in range(tries):
         try:
             req = urllib.request.Request(url, headers=HEADERS)
             with urllib.request.urlopen(req, timeout=30) as r:
-                return json.load(r)
+                return r.read().decode("utf-8")
         except Exception:
             if i == tries - 1:
                 raise
             time.sleep(3 * (i + 1))
+
+
+def get_json(url, tries=3):
+    return json.loads(get_text(url, tries))
 
 
 def version(tags):
@@ -101,6 +108,59 @@ def fetch_movies(ids):
     return movies
 
 
+GA_VERSIONS = {"VF": "VF", "VOST": "VOSTFR", "VOSTFR": "VOSTFR"}
+
+
+def grandangle_data():
+    """Données du Grand Angle : /data.json, sinon le bloc intégré à la page /programme."""
+    try:
+        data = get_json(f"{GA_BASE}/data.json", tries=1)
+        if isinstance(data, dict) and data.get("seances"):
+            return data
+    except Exception:
+        pass
+    html = get_text(f"{GA_BASE}/programme")
+    marker = "window.__CINE_DATA__="
+    start = html.index(marker) + len(marker)
+    data, _ = json.JSONDecoder().raw_decode(html[start:])
+    return data
+
+
+def fetch_grandangle(start, end):
+    data = grandangle_data()
+    first, last = f"{start:%Y-%m-%d}", f"{end - timedelta(days=1):%Y-%m-%d}"
+    films = {f["id"]: f for f in data["films"]}
+    sessions, movies = [], {}
+    for s in data["seances"]:
+        day = s["starts_at"][:10]  # heure locale déjà indiquée dans la date
+        if not first <= day <= last or s["film_id"] not in films:
+            continue
+        f, mid = films[s["film_id"]], f"ga-{s['film_id']}"
+        v = s.get("version")
+        sess = {
+            "date": day,
+            "time": s["starts_at"][11:16],
+            "cinema": "P1051",
+            "movie": mid,
+            "version": GA_VERSIONS.get(str(v).upper(), v) if v else None,
+            "screen": s.get("room"),
+        }
+        if s.get("event_title"):
+            sess["evenement"] = s["event_title"]
+        sessions.append(sess)
+        movies[mid] = {
+            "titre": f.get("title"),
+            "titre_original": f.get("original_title"),
+            "affiche": f.get("poster_url"),
+            "genres": ", ".join(f.get("genres") or []),
+            "duree_min": f.get("runtime"),
+            "realisateurs": [f["director"]] if f.get("director") else [],
+            "acteurs": person_list(f.get("cast")),
+            "synopsis": f.get("overview"),
+        }
+    return sessions, movies
+
+
 def main():
     now = datetime.now(ZoneInfo(TZ))
     start = datetime(now.year, now.month, now.day)
@@ -108,10 +168,14 @@ def main():
     prev = json.loads(OUT.read_text("utf-8")) if OUT.exists() else {}
     first, last = f"{start:%Y-%m-%d}", f"{end - timedelta(days=1):%Y-%m-%d}"
 
-    sessions, errors = [], []
+    sessions, errors, new_movies = [], [], {}
     for c in CINEMAS:
         try:
-            got = fetch_sessions(c["id"], start, end)
+            if c["source"] == "grandangle":
+                got, ga_movies = fetch_grandangle(start, end)
+                new_movies.update(ga_movies)
+            else:
+                got = fetch_sessions(c["id"], start, end)
             print(f"{c['ville']}: {len(got)} séances")
             sessions += got
         except Exception as e:  # on garde les anciennes données de ce cinéma
@@ -124,8 +188,9 @@ def main():
 
     ids = {s["movie"] for s in sessions}
     movies = dict(prev.get("films", {}))
+    movies.update(new_movies)
     try:
-        movies.update(fetch_movies(ids))
+        movies.update(fetch_movies({i for i in ids if not i.startswith("ga-")}))
     except Exception as e:
         errors.append(f"films: {e}")
         print(f"ERREUR films: {e}", file=sys.stderr)
