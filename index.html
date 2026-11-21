@@ -8,12 +8,12 @@
 <style>
 :root{
   --bg:#f3f4f6; --card:#fff; --ink:#151b2b; --mute:#5b6478; --line:#dde1e8;
-  --yellow:#ffd23f; --on-yellow:#151b2b; --focus:#1f4fd8;
+  --yellow:#ffd23f; --on-yellow:#151b2b; --focus:#1f4fd8; --on-c:#fff;
   --c-P1039:#b3262e; --c-P1051:#1f6fb2; --c-P1042:#2e7d4f;
 }
 @media (prefers-color-scheme:dark){
   :root{ --bg:#0f1420; --card:#171e2e; --ink:#eef1f6; --mute:#9aa4b8; --line:#2a3347; --focus:#8fb0ff;
-    --c-P1039:#ff6b73; --c-P1051:#5eb0f0; --c-P1042:#5fcf8b; }
+    --c-P1039:#ff6b73; --c-P1051:#5eb0f0; --c-P1042:#5fcf8b; --on-c:#0f1420; }
 }
 *{box-sizing:border-box}
 html{scroll-padding-top:7rem}
@@ -35,9 +35,12 @@ button{font:inherit;color:inherit;cursor:pointer}
 .day span{font-size:.8rem;color:var(--mute)}
 .day[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
 .day[aria-pressed=true] span{color:inherit;opacity:.8}
-.chip{display:inline-flex;align-items:center;gap:.45rem;border-radius:2rem}
-.chip i{width:.7rem;height:.7rem;border-radius:50%;background:var(--c,var(--mute))}
-.chip[aria-pressed=true]{border-color:var(--c,var(--ink));box-shadow:inset 0 0 0 1px var(--c,var(--ink));font-weight:600}
+.chip{display:inline-flex;align-items:center;gap:.5rem;border-radius:2rem;background:transparent;color:var(--mute)}
+.chip i{width:1.15rem;height:1.15rem;border-radius:50%;border:2px solid var(--c);display:grid;place-items:center;
+  font-style:normal;font-size:.72rem;line-height:1}
+.chip[aria-pressed=true]{background:var(--c);border-color:var(--c);color:var(--on-c);font-weight:600}
+.chip[aria-pressed=true] i{background:var(--on-c);border-color:var(--on-c);color:var(--c)}
+.chip[aria-pressed=true] i::before{content:"✓";font-weight:900}
 main{max-width:56rem;margin:0 auto;padding:1rem}
 h2{font-size:1.25rem;margin:.5rem 0 1rem}
 .note{padding:.7rem .9rem;border:1px dashed var(--line);border-radius:.6rem;color:var(--mute);margin:0 0 .75rem}
@@ -96,7 +99,7 @@ footer{max-width:56rem;margin:0 auto;padding:1rem 1rem 2.5rem;color:var(--mute);
 
 <script>
 const $ = s => document.querySelector(s);
-const state = { day: null, selected: new Set() };
+const state = { day: null, selected: new Set() }; // cinémas affichés
 let data;
 
 function h(tag, props = {}, ...kids) {
@@ -123,7 +126,7 @@ const dayShort = d => dayObj(d).toLocaleDateString("fr-FR", { weekday: "short" }
 const dayLong = d => dayObj(d).toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long" });
 const duree = m => (m ? `${Math.floor(m / 60)} h ${String(m % 60).padStart(2, "0")}` : "");
 const cinema = id => data.cinemas.find(c => c.id === id);
-const active = () => (state.selected.size ? state.selected : new Set(data.cinemas.map(c => c.id)));
+const active = () => state.selected;
 
 function poster(f, cls = "poster") {
   return f.affiche
@@ -149,12 +152,12 @@ function cinemaBlock(c, list, now) {
 
 function renderBar() {
   $("#days").replaceChildren(...dayList().map(d => h("button", {
-    class: "day", type: "button", "aria-pressed": d === state.day,
+    class: "day", type: "button", "aria-pressed": String(d === state.day),
     onclick: () => { state.day = d; render(); },
   }, h("span", {}, dayShort(d)), h("b", {}, String(dayObj(d).getDate())))));
   $("#cinemas").replaceChildren(...data.cinemas.map(c => h("button", {
     class: "chip", type: "button", style: `--c:var(--c-${c.id})`,
-    "aria-pressed": state.selected.has(c.id),
+    "aria-pressed": String(state.selected.has(c.id)),
     onclick: () => { state.selected.has(c.id) ? state.selected.delete(c.id) : state.selected.add(c.id); render(); },
   }, h("i"), c.ville)));
 }
@@ -175,7 +178,9 @@ function render() {
       main.append(h("p", { class: "note" }, `${c.ville} : le programme n’est pas encore publié.`));
   }
   const todays = data.seances.filter(s => s.date === state.day && on.has(s.cinema));
-  if (!todays.length) {
+  if (!on.size) {
+    main.append(h("p", { class: "note" }, "Aucun cinéma sélectionné. Cochez au moins une ville ci-dessus."));
+  } else if (!todays.length) {
     main.append(h("p", { class: "note" }, "Aucune séance ce jour-là dans les cinémas sélectionnés. Essayez un autre jour."));
   }
   const byFilm = new Map();
@@ -231,6 +236,7 @@ async function init() {
       "Le programme n’est pas disponible pour le moment. Si vous venez d’installer le site, lancez le workflow « Mise à jour du programme » dans l’onglet Actions du dépôt."));
     return;
   }
+  state.selected = new Set(data.cinemas.map(c => c.id));
   const days = dayList(), today = parisNow().date;
   state.day = days.includes(today) ? today : days[0];
   const maj = new Date(data.genere_le).toLocaleString("fr-FR", { dateStyle: "long", timeStyle: "short" });
