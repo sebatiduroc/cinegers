@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cinémas de Lectoure, Fleurance et Mauvezin : programme de la semaine</title>
+<meta name="description" content="Séances de la semaine au Sénéchal (Lectoure), au Grand Angle (Fleurance) et au Ciné Mauv’ (Mauvezin), avec la version VF ou VOSTFR.">
+<style>
+:root{
+  --bg:#f3f4f6; --card:#fff; --ink:#151b2b; --mute:#5b6478; --line:#dde1e8;
+  --yellow:#ffd23f; --on-yellow:#151b2b; --focus:#1f4fd8;
+  --c-P1039:#b3262e; --c-P1051:#1f6fb2; --c-P1042:#2e7d4f;
+}
+@media (prefers-color-scheme:dark){
+  :root{ --bg:#0f1420; --card:#171e2e; --ink:#eef1f6; --mute:#9aa4b8; --line:#2a3347; --focus:#8fb0ff;
+    --c-P1039:#ff6b73; --c-P1051:#5eb0f0; --c-P1042:#5fcf8b; }
+}
+*{box-sizing:border-box}
+html{scroll-padding-top:7rem}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.5 "Avenir Next","Segoe UI",system-ui,-apple-system,Roboto,sans-serif}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+header{padding:1.5rem 1rem .75rem;max-width:56rem;margin:0 auto}
+h1{margin:0;font-size:clamp(1.6rem,5vw,2.4rem);line-height:1.1;letter-spacing:-.02em}
+.sub{margin:.4rem 0 0;color:var(--mute)}
+.bar{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.bar-in{max-width:56rem;margin:0 auto;padding:.6rem 1rem}
+.row{display:flex;gap:.5rem;overflow-x:auto;padding:.15rem 0;scrollbar-width:thin}
+.row+.row{margin-top:.5rem}
+button{font:inherit;color:inherit;cursor:pointer}
+.day,.chip{flex:none;border:1px solid var(--line);background:var(--card);border-radius:.6rem;padding:.35rem .8rem}
+.day{display:grid;text-align:center;line-height:1.2;min-width:4.2rem}
+.day b{font-size:1.15rem}
+.day span{font-size:.8rem;color:var(--mute)}
+.day[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.day[aria-pressed=true] span{color:inherit;opacity:.8}
+.chip{display:inline-flex;align-items:center;gap:.45rem;border-radius:2rem}
+.chip i{width:.7rem;height:.7rem;border-radius:50%;background:var(--c,var(--mute))}
+.chip[aria-pressed=true]{border-color:var(--c,var(--ink));box-shadow:inset 0 0 0 1px var(--c,var(--ink));font-weight:600}
+main{max-width:56rem;margin:0 auto;padding:1rem}
+h2{font-size:1.25rem;margin:.5rem 0 1rem}
+.note{padding:.7rem .9rem;border:1px dashed var(--line);border-radius:.6rem;color:var(--mute);margin:0 0 .75rem}
+.film{display:grid;grid-template-columns:5.5rem 1fr;gap:1rem;background:var(--card);
+  border:1px solid var(--line);border-radius:.8rem;padding:.8rem;margin-bottom:.8rem}
+.poster{width:100%;aspect-ratio:2/3;object-fit:cover;border-radius:.4rem;background:var(--line);display:block}
+.film h3{margin:0;font-size:1.15rem;line-height:1.25}
+.title{background:none;border:0;padding:0;text-align:left;font-weight:700;text-decoration:underline;
+  text-decoration-color:var(--line);text-underline-offset:.2em;text-decoration-thickness:2px}
+.title:hover{text-decoration-color:var(--ink)}
+.meta{margin:.15rem 0 .6rem;color:var(--mute);font-size:.9rem}
+.cin{margin:.35rem 0}
+.cin-name{display:flex;align-items:center;gap:.45rem;font-size:.9rem;font-weight:600}
+.cin-name i{width:.7rem;height:.7rem;border-radius:50%;background:var(--c)}
+.cin-name small{font-weight:400;color:var(--mute)}
+ul.times{list-style:none;margin:.3rem 0 0;padding:0;display:flex;flex-wrap:wrap;gap:.4rem}
+.t{display:inline-flex;align-items:stretch;border:1px solid var(--line);border-radius:.4rem;overflow:hidden;
+  font-variant-numeric:tabular-nums}
+.t time{padding:.15rem .5rem;font-weight:600}
+.t .v{padding:.15rem .45rem;font-size:.78rem;font-weight:700;display:flex;align-items:center;
+  border-left:1px solid var(--line);color:var(--mute)}
+.t .v.vo{background:var(--yellow);color:var(--on-yellow);border-left-color:var(--yellow)}
+.t.passed{opacity:.45;text-decoration:line-through}
+dialog{border:0;border-radius:1rem;padding:0;width:min(42rem,calc(100% - 1.5rem));max-height:90vh;
+  background:var(--card);color:var(--ink);box-shadow:0 20px 60px rgba(0,0,0,.35)}
+dialog::backdrop{background:rgba(8,12,22,.6)}
+.d{display:grid;grid-template-columns:8rem 1fr;gap:1.2rem;padding:1.2rem}
+.d h2{margin:0 0 .3rem;text-transform:none;font-size:1.4rem;line-height:1.2}
+.d dl{margin:.8rem 0;display:grid;grid-template-columns:auto 1fr;gap:.25rem .8rem}
+.d dt{font-weight:700} .d dd{margin:0}
+.d p{margin:.8rem 0;max-width:62ch}
+.week h4{margin:1rem 0 .25rem;font-size:.95rem}
+.week p{margin:.15rem 0;font-size:.92rem}
+.close{position:absolute;top:.5rem;right:.6rem;border:1px solid var(--line);background:var(--card);border-radius:.5rem;
+  padding:.25rem .7rem}
+footer{max-width:56rem;margin:0 auto;padding:1rem 1rem 2.5rem;color:var(--mute);font-size:.85rem}
+@media (max-width:34rem){
+  .film{grid-template-columns:4.2rem 1fr;gap:.7rem}
+  .d{grid-template-columns:1fr}.d .poster{max-width:9rem}
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Au cinéma cette semaine</h1>
+  <p class="sub">Lectoure, Fleurance et Mauvezin</p>
+</header>
+<div class="bar"><div class="bar-in">
+  <div class="row" id="days" role="group" aria-label="Choisir un jour"></div>
+  <div class="row" id="cinemas" role="group" aria-label="Filtrer par cinéma"></div>
+</div></div>
+<main id="main" aria-live="polite"><p class="note">Chargement du programme…</p></main>
+<footer id="foot"></footer>
+<dialog id="dlg" aria-labelledby="dlg-title"><button class="close" id="close" type="button">Fermer</button><div id="dlg-body"></div></dialog>
+
+<script>
+const $ = s => document.querySelector(s);
+const state = { day: null, selected: new Set() };
+let data;
+
+function h(tag, props = {}, ...kids) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(props)) {
+    if (v == null || v === false) continue;
+    if (k === "class") e.className = v;
+    else if (k.startsWith("on")) e.addEventListener(k.slice(2), v);
+    else e.setAttribute(k, v === true ? "" : v);
+  }
+  for (const kid of kids.flat()) if (kid != null && kid !== false) e.append(kid);
+  return e;
+}
+
+const parisNow = () => {
+  const d = new Date();
+  return {
+    date: d.toLocaleDateString("sv-SE", { timeZone: "Europe/Paris" }),
+    time: d.toLocaleTimeString("fr-FR", { timeZone: "Europe/Paris", hour: "2-digit", minute: "2-digit" }),
+  };
+};
+const dayObj = d => new Date(d + "T12:00:00");
+const dayShort = d => dayObj(d).toLocaleDateString("fr-FR", { weekday: "short" }).replace(".", "");
+const dayLong = d => dayObj(d).toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long" });
+const duree = m => (m ? `${Math.floor(m / 60)} h ${String(m % 60).padStart(2, "0")}` : "");
+const cinema = id => data.cinemas.find(c => c.id === id);
+const active = () => (state.selected.size ? state.selected : new Set(data.cinemas.map(c => c.id)));
+
+function poster(f, cls = "poster") {
+  return f.affiche
+    ? h("img", { class: cls, src: f.affiche, alt: `Affiche de ${f.titre}`, loading: "lazy" })
+    : h("div", { class: cls, role: "img", "aria-label": "Affiche non disponible" });
+}
+
+function times(list, now) {
+  return h("ul", { class: "times" }, list.map(s => {
+    const passed = s.date === now.date && s.time < now.time;
+    return h("li", { class: "t" + (passed ? " passed" : "") },
+      h("time", {}, s.time),
+      s.version && h("span", { class: "v " + (s.version === "VF" ? "vf" : "vo") }, s.version));
+  }));
+}
+
+function cinemaBlock(c, list, now) {
+  return h("div", { class: "cin", style: `--c:var(--c-${c.id})` },
+    h("div", { class: "cin-name" }, h("i"), c.ville, h("small", {}, c.nom)),
+    times(list, now));
+}
+
+function renderBar() {
+  $("#days").replaceChildren(...dayList().map(d => h("button", {
+    class: "day", type: "button", "aria-pressed": d === state.day,
+    onclick: () => { state.day = d; render(); },
+  }, h("span", {}, dayShort(d)), h("b", {}, String(dayObj(d).getDate())))));
+  $("#cinemas").replaceChildren(...data.cinemas.map(c => h("button", {
+    class: "chip", type: "button", style: `--c:var(--c-${c.id})`,
+    "aria-pressed": state.selected.has(c.id),
+    onclick: () => { state.selected.has(c.id) ? state.selected.delete(c.id) : state.selected.add(c.id); render(); },
+  }, h("i"), c.ville)));
+}
+
+function dayList() {
+  const out = [], end = dayObj(data.au);
+  for (let d = dayObj(data.du); d <= end; d.setDate(d.getDate() + 1)) out.push(d.toLocaleDateString("sv-SE"));
+  return out;
+}
+
+function render() {
+  renderBar();
+  const now = parisNow(), on = active(), main = h("div");
+  const t = dayLong(state.day); main.append(h("h2", {}, t[0].toUpperCase() + t.slice(1)));
+
+  for (const c of data.cinemas) {
+    if (on.has(c.id) && !data.seances.some(s => s.cinema === c.id))
+      main.append(h("p", { class: "note" }, `${c.ville} : le programme n’est pas encore publié.`));
+  }
+  const todays = data.seances.filter(s => s.date === state.day && on.has(s.cinema));
+  if (!todays.length) {
+    main.append(h("p", { class: "note" }, "Aucune séance ce jour-là dans les cinémas sélectionnés. Essayez un autre jour."));
+  }
+  const byFilm = new Map();
+  todays.forEach(s => (byFilm.get(s.movie) || byFilm.set(s.movie, []).get(s.movie)).push(s));
+
+  for (const [id, list] of byFilm) {
+    const f = data.films[id] || { titre: `Film n° ${id}` };
+    const byCin = data.cinemas.filter(c => list.some(s => s.cinema === c.id));
+    main.append(h("article", { class: "film" },
+      poster(f),
+      h("div", {},
+        h("h3", {}, h("button", { class: "title", type: "button", onclick: () => openFilm(id) }, f.titre)),
+        h("p", { class: "meta" }, [f.genres, duree(f.duree_min)].filter(Boolean).join(", ")),
+        byCin.map(c => cinemaBlock(c, list.filter(s => s.cinema === c.id), now)))));
+  }
+  $("#main").replaceChildren(main);
+}
+
+function openFilm(id) {
+  const f = data.films[id] || { titre: `Film n° ${id}` }, now = parisNow();
+  const week = h("div", { class: "week" }, h("h4", {}, "Toutes les séances de la semaine"));
+  for (const c of data.cinemas) {
+    const mine = data.seances.filter(s => s.movie === id && s.cinema === c.id);
+    if (!mine.length) continue;
+    week.append(h("h4", { style: `color:var(--c-${c.id})` }, c.ville));
+    for (const d of [...new Set(mine.map(s => s.date))])
+      week.append(h("p", {}, `${dayLong(d)} : ${mine.filter(s => s.date === d)
+        .map(s => s.time + (s.version ? " " + s.version : "")).join(", ")}`));
+  }
+  const rows = [];
+  if (f.realisateurs?.length) rows.push(h("dt", {}, "De"), h("dd", {}, f.realisateurs.join(", ")));
+  if (f.acteurs?.length) rows.push(h("dt", {}, "Avec"), h("dd", {}, f.acteurs.join(", ")));
+  if (f.genres) rows.push(h("dt", {}, "Genre"), h("dd", {}, f.genres));
+  if (f.duree_min) rows.push(h("dt", {}, "Durée"), h("dd", {}, duree(f.duree_min)));
+  $("#dlg-body").replaceChildren(h("div", { class: "d" },
+    poster(f),
+    h("div", {},
+      h("h2", { id: "dlg-title" }, f.titre),
+      f.titre_original && f.titre_original !== f.titre && h("p", { class: "meta" }, `Titre original : ${f.titre_original}`),
+      h("dl", {}, rows),
+      h("p", {}, f.synopsis || "Synopsis non disponible."),
+      week)));
+  $("#dlg").showModal();
+}
+
+async function init() {
+  try {
+    const r = await fetch("programme.json", { cache: "no-cache" });
+    if (!r.ok) throw new Error(r.status);
+    data = await r.json();
+  } catch (e) {
+    $("#main").replaceChildren(h("p", { class: "note" },
+      "Le programme n’est pas disponible pour le moment. Si vous venez d’installer le site, lancez le workflow « Mise à jour du programme » dans l’onglet Actions du dépôt."));
+    return;
+  }
+  const days = dayList(), today = parisNow().date;
+  state.day = days.includes(today) ? today : days[0];
+  const maj = new Date(data.genere_le).toLocaleString("fr-FR", { dateStyle: "long", timeStyle: "short" });
+  $("#foot").replaceChildren(
+    h("p", {}, `Programme mis à jour le ${maj}. Sources : `,
+      h("a", { href: "https://www.cine32gers.com/" }, "Ciné 32"),
+      " (séances, versions, fiches) et AlloCiné (affiches). Les horaires peuvent changer : vérifiez auprès du cinéma.")
+  );
+  render();
+}
+
+$("#close").addEventListener("click", () => $("#dlg").close());
+$("#dlg").addEventListener("click", e => { if (e.target === $("#dlg")) $("#dlg").close(); });
+init();
+</script>
+</body>
+</html>
