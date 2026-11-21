@@ -1,22 +1,25 @@
 {
- "genere_le": "2026-11-21T17:00+01:00",
+ "genere_le": "2026-11-21T23:13+01:00",
  "du": "2026-11-21",
  "au": "2026-11-27",
  "cinemas": [
   {
    "id": "P1039",
    "ville": "Lectoure",
-   "nom": "Le Sénéchal"
+   "nom": "Le Sénéchal",
+   "source": "cine32"
   },
   {
    "id": "P1051",
    "ville": "Fleurance",
-   "nom": "Grand Angle"
+   "nom": "Grand Angle",
+   "source": "grandangle"
   },
   {
    "id": "P1042",
    "ville": "Mauvezin",
-   "nom": "Ciné Mauv'"
+   "nom": "Ciné Mauv'",
+   "source": "cine32"
   }
  ],
  "films": {
@@ -346,6 +349,204 @@
     "Kuniko Miyake"
    ],
    "synopsis": "Un couple âgé entreprend un voyage pour rendre visite à ses enfants. D’abord accueillis avec les égards qui leur sont dus, les parents s’avèrent bientôt dérangeants. Seule Noriko, la veuve de leur fils mort à la guerre, semble réellement contente de les voir et trouve du temps à leur consacrer. Les enfants, quant à eux, se cotisent pour leur offrir un séjour dans la station thermale d’Atami, loin de Tokyo…"
+  },
+  "ga-186": {
+   "titre": "Moulin",
+   "titre_original": "Moulin",
+   "affiche": "https://cinegrandangle.fr/img/w780/niEnEAPjqc2Mey6IiVPtBun45ZV.jpg",
+   "genres": "Histoire, Drame, Guerre",
+   "duree_min": 130,
+   "realisateurs": [
+    "Lászlo Nemes"
+   ],
+   "acteurs": [
+    "Gilles Lellouche",
+    "Lars Eidinger",
+    "Louise Bourgoin",
+    "Marcin Czarnik",
+    "Max Warburton"
+   ],
+   "synopsis": "Jean Moulin est parachuté en France occupée pour unifier les réseaux de la Résistance, sous l’égide du général de Gaulle. Malgré ses efforts pour rester dans l’ombre, Moulin est trahi puis livré à la Gestapo à Lyon, dirigée par l’impitoyable Klaus Barbie. Torturé sans relâche, il ne cède jamais. Sa détermination silencieuse contribuera à galvaniser les forces de la Résistance et à faire naître un nouvel esprit de combat et de liberté en France…"
+  },
+  "ga-191": {
+   "titre": "Le Mystère Lucy Lost",
+   "titre_original": "Le Mystère Lucy Lost",
+   "affiche": "https://cinegrandangle.fr/img/w780/zzztw9DglE50bVH8Hz2CduffZq1.jpg",
+   "genres": "Aventure, Animation, Familial, Fantastique, Guerre",
+   "duree_min": 89,
+   "realisateurs": [
+    "Olivier Clert"
+   ],
+   "acteurs": [
+    "Charlie Rosenzweig",
+    "Zach Valentin-Dattas",
+    "Jessica Monceau",
+    "Quentin Faure",
+    "Keanu Peyran"
+   ],
+   "synopsis": "Lucy vit avec sa famille dans un village sur une petite île isolée. Ses dons extraordinaires suscitent le rejet des habitants. Lorsqu'elle rencontre Milly, une petite fille qu'elle seule peut voir, Lucy embarque dans une grande aventure pour percer le secret de ses mystérieux pouvoirs."
+  },
+  "ga-169": {
+   "titre": "Karma",
+   "titre_original": "Karma",
+   "affiche": "https://cinegrandangle.fr/img/w780/hwEZ6fOtXX9mIZHSZPoOJW7AvmP.jpg",
+   "genres": "Thriller",
+   "duree_min": 140,
+   "realisateurs": [
+    "Guillaume Canet"
+   ],
+   "acteurs": [
+    "Marion Cotillard",
+    "Denis Ménochet",
+    "Leonardo Sbaraglia",
+    "Luis Zahera",
+    "Anne Le Forestier"
+   ],
+   "synopsis": "Dans un village au nord de l’Espagne, Jeanne tente de reconstruire sa vie avec Daniel, qui ne connaît rien de son passé trouble. Un jour, Mateo, le filleul de Jeanne âgé de six ans, disparaît mystérieusement… Afin d’échapper à la police qui la soupçonne rapidement, Jeanne se réfugie en France dans une communauté religieuse dans laquelle elle est née et qu’elle a fuie quelques années auparavant. Daniel ne croit pas à la culpabilité de la femme qu’il aime et va tout faire pour la retrouver avant la police."
+  },
+  "ga-192": {
+   "titre": "Wild Horse Nine",
+   "titre_original": "Wild Horse Nine",
+   "affiche": "https://cinegrandangle.fr/img/w780/hnBtud9vLr9arsUW8nxrzIz2uA4.jpg",
+   "genres": "Comédie, Crime, Thriller",
+   "duree_min": 117,
+   "realisateurs": [
+    "Martin McDonagh"
+   ],
+   "acteurs": [
+    "John Malkovich",
+    "Sam Rockwell",
+    "Steve Buscemi",
+    "Mariana di Girolamo",
+    "Ailín Salas"
+   ],
+   "synopsis": "Peu avant le coup d'État chilien de 1973, deux agents de la CIA, Chris et Lee, sont envoyés de Santiago vers l'île de Pâques par leur supérieur, MJ. Au milieu des statues emblématiques de l'île, tandis que ces partenaires de longue date sont confrontés à leur sombre passé et aux complots en cours, Chris noue une relation avec deux étudiantes rebelles qui menace de faire basculer dans le chaos leur séjour dans ce paradis isolé…"
+  },
+  "ga-182": {
+   "titre": "La Gradiva",
+   "titre_original": "La Gradiva",
+   "affiche": "https://cinegrandangle.fr/img/w780/aFrhFiIhdf2klvXq8VFcB06b5pS.jpg",
+   "genres": "Drame",
+   "duree_min": 145,
+   "realisateurs": [
+    "Marine Atlan"
+   ],
+   "acteurs": [
+    "Colas Quignard",
+    "Antonia Buresi",
+    "Mitia Capellier-Audat",
+    "Suzanne Gerin",
+    "Hadya Fofana"
+   ],
+   "synopsis": "Un groupe de lycéens français part en voyage scolaire à Naples pour découvrir les ruines de Pompéi et ses corps pétrifiés par le Vésuve. C’est là que le vertige les saisit brutalement. L’un après l’autre, ils se laissent submerger par le désir et la colère jusqu’à s’y abandonner complètement."
+  },
+  "ga-193": {
+   "titre": "Camembert",
+   "titre_original": "Camembert",
+   "affiche": "https://cinegrandangle.fr/img/w780/jJECyLZIHUZxQbC1VowuURFs2Kl.jpg",
+   "genres": "Comédie",
+   "duree_min": 85,
+   "realisateurs": [
+    "Matthieu Rumani"
+   ],
+   "acteurs": [
+    "Kristin Scott Thomas",
+    "Alex Lutz",
+    "Pascale Arbillot",
+    "Bernard Le Coq",
+    "Guillermo Guiz"
+   ],
+   "synopsis": "Lors du dîner du réveillon chez les Roussel, Stan rencontre pour la première fois la grande famille bourgeoise de sa petite amie, Cléo. Tout semble parfait… jusqu’à ce que le groupe décide de lancer une partie de Trivial Pursuit. Face à ces érudits surentraînés, Stan sait qu’il n’a aucune chance. Mais France, sa belle-mère autoritaire, ne lui laisse pas le choix. Après tout, ce n’est \"qu’un jeu \"…"
+  },
+  "ga-194": {
+   "titre": "15/18",
+   "titre_original": "15/18",
+   "affiche": "https://cinegrandangle.fr/img/w780/nlqZ62tEobENzeLxNUXANgz8XJa.jpg",
+   "genres": "Drame",
+   "duree_min": 104,
+   "realisateurs": [
+    "Cédric Kahn"
+   ],
+   "acteurs": [
+    "Malou Khebizi",
+    "Zoé monpart",
+    "Kenji Peyran",
+    "Raphaël Besson",
+    "Patience Munchenbach"
+   ],
+   "synopsis": "Lucia, 17 ans, est amenée par la police dans une unité de soins pédopsychiatriques de l’hôpital public. Ici tous les patients ont entre 15 et 18 ans. Lucia connaît l’endroit, elle y a fait de nombreux séjours. Elle retrouve son amie Eloïse, en hospitalisation longue durée, mais aussi Yasmine, Camilia, Ulysse, André… tous ont des pathologies et des parcours différents. Les médecins les soignent, les écoutent, reçoivent leurs parents, tout en gérant un service en surchauffe. Mais un jour, l’arrivée du mystérieux Enzo menace de tout bouleverser."
+  },
+  "ga-158": {
+   "titre": "Les Misérables",
+   "titre_original": "Les Misérables",
+   "affiche": "https://cinegrandangle.fr/img/w780/tY3CoBNTCpvJayVRLqIIGDa4Ep8.jpg",
+   "genres": "Histoire, Romance, Drame",
+   "duree_min": 178,
+   "realisateurs": [
+    "Fred Cavayé"
+   ],
+   "acteurs": [
+    "Vincent Lindon",
+    "Tahar Rahim",
+    "Camille Cottin",
+    "Benjamin Lavernhe",
+    "Noémie Merlant"
+   ],
+   "synopsis": "Jean Valjean, un ancien forçat évadé du bagne où il a passé 16 ans pour avoir volé du pain, seconsacre désormais à faire le bien autour de lui. Il se crée une nouvelle identité, celle d'un notable respecté, et vient en aide à Fantine, une ouvrière mourante en lui promettant de sauver sa fille, la petite Cosette, des griffes des Thénardier, des aubergistes qui l'exploitent et la maltraitent. Alors que Valjean prend soin de l'enfant et l'élève comme sa propre fille, son passé finit par le rattraper en la personne de l’inspecteur Javert qui n'a eu de cesse de le pourchasser durant toutes ces années. En dépit de l'agitation sociale qui secoue la France, les destins de Valjean, de Cosette, de son amant Marius et de Javert s'entremêlent dans un Paris bouillonnant et révolutionnaire. À travers des luttes, des sacrifices et un profond désir de justice, Valjean s'efforce d'achever son parcours de rédemption et d'offrir à Cosette un avenir d'amour et de liberté."
+  },
+  "ga-195": {
+   "titre": "Irish Travellers",
+   "titre_original": "Tin Castle",
+   "affiche": "https://cinegrandangle.fr/img/w780/f5wjPBFW7jZ33iV784gEY4JsRg0.jpg",
+   "genres": "Documentaire",
+   "duree_min": 106,
+   "realisateurs": [
+    "Alexander Murphy"
+   ],
+   "acteurs": [
+    "Pa O’Reilly",
+    "Lisa O’Reilly",
+    "Sean O’Reilly",
+    "Paddy O’Reilly",
+    "Chantelle O’Reilly"
+   ],
+   "synopsis": "Le long d'une route oubliée, la famille O'Reilly vit dans une vieille caravane échouée au milieu des champs. Pa, Lisa et leurs dix enfants traversent les saisons dans ce fragile château de tôle, héritiers d'un mode de vie en sursis. Menacés d'expulsion, leur équilibre de fortune vacille mais ils résistent, fidèles à leurs traditions. Les enfants rient, les chiens aboient, la caravane tient encore, mais pour combien de temps ?"
+  },
+  "ga-196": {
+   "titre": "Demain, je tombe amoureux",
+   "titre_original": "Demain, je tombe amoureux",
+   "affiche": "https://cinegrandangle.fr/img/w780/pAXDKVr5qErSlyv9WB3lJ8cdPip.jpg",
+   "genres": "Comédie",
+   "duree_min": 107,
+   "realisateurs": [
+    "Martin Provost"
+   ],
+   "acteurs": [
+    "Fabrice Luchini",
+    "Emmanuelle Devos",
+    "Chiara Mastroianni",
+    "Carole Bouquet",
+    "Hélène Alexandridis"
+   ],
+   "synopsis": "Le jour de son départ à la retraite, Émile, professeur de lettres à Dieppe, donne à ses jeunes élèves un dernier cours sur la littérature et l’amour, les encourageant à devenir les poètes de leurs propres existences. Une élève l'interroge sur ses propres sentiments. Émile est-il toujours amoureux de sa femme ? Incapable de répondre, il découvre, une fois rentré chez lui, que sa femme l’a quitté. Le voilà contraint d’appliquer à lui-même ses propres préceptes. Deux rencontres et une retrouvaille vont alors l'aider à se réinventer."
+  },
+  "ga-197": {
+   "titre": "Billie, à la croisée des mondes",
+   "titre_original": "Hexed",
+   "affiche": "https://cinegrandangle.fr/img/w780/oifSgkd0jb7ycHUld3IKRVCvmyZ.jpg",
+   "genres": "Aventure, Animation, Familial, Fantastique, Comédie",
+   "duree_min": 103,
+   "realisateurs": [
+    "Jason Hand"
+   ],
+   "acteurs": [
+    "Hailee Steinfeld",
+    "Rashida Jones",
+    "Jodie Foster",
+    "Walton Goggins",
+    "Tracey Ullman"
+   ],
+   "synopsis": "Une adolescente maladroite et sa mère supra-organisée découvrent que ce qui la rend unique pourrait bien provenir de pouvoirs magiques capables non seulement de chambouler leur vie mais aussi le monde secret des sortilèges…"
   }
  },
  "seances": [
@@ -364,6 +565,38 @@
    "movie": "986",
    "version": "VOSTFR",
    "screen": "SALLE 1"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "17:30",
+   "cinema": "P1051",
+   "movie": "ga-186",
+   "version": "VF",
+   "screen": "Salle 1"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "17:30",
+   "cinema": "P1051",
+   "movie": "ga-191",
+   "version": "VF",
+   "screen": "Salle 2"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "20:30",
+   "cinema": "P1051",
+   "movie": "ga-169",
+   "version": "VF",
+   "screen": "Salle 2"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "20:30",
+   "cinema": "P1051",
+   "movie": "ga-192",
+   "version": "VF",
+   "screen": "Salle 1"
   },
   {
    "date": "2026-11-21",
@@ -407,6 +640,22 @@
   },
   {
    "date": "2026-11-22",
+   "time": "17:30",
+   "cinema": "P1051",
+   "movie": "ga-182",
+   "version": "VF",
+   "screen": "Salle 2"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "17:30",
+   "cinema": "P1051",
+   "movie": "ga-193",
+   "version": "VF",
+   "screen": "Salle 1"
+  },
+  {
+   "date": "2026-11-22",
    "time": "20:30",
    "cinema": "P1039",
    "movie": "1000020311",
@@ -444,6 +693,38 @@
    "movie": "1000026725",
    "version": "VF",
    "screen": "CINEMA DE MAUVEZIN"
+  },
+  {
+   "date": "2026-11-23",
+   "time": "20:30",
+   "cinema": "P1051",
+   "movie": "ga-193",
+   "version": "VF",
+   "screen": "Salle 1"
+  },
+  {
+   "date": "2026-11-23",
+   "time": "20:30",
+   "cinema": "P1051",
+   "movie": "ga-194",
+   "version": "VF",
+   "screen": "Salle 2"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "20:30",
+   "cinema": "P1051",
+   "movie": "ga-158",
+   "version": "VF",
+   "screen": "Salle 1"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "20:30",
+   "cinema": "P1051",
+   "movie": "ga-195",
+   "version": "VOSTFR",
+   "screen": "Salle 2"
   },
   {
    "date": "2026-11-24",
@@ -487,6 +768,14 @@
   },
   {
    "date": "2026-11-26",
+   "time": "17:30",
+   "cinema": "P1051",
+   "movie": "ga-192",
+   "version": "VOSTFR",
+   "screen": "Salle 1"
+  },
+  {
+   "date": "2026-11-26",
    "time": "19:00",
    "cinema": "P1039",
    "movie": "1000039483",
@@ -524,6 +813,22 @@
    "movie": "1000040172",
    "version": "VF",
    "screen": "SALLE 2"
+  },
+  {
+   "date": "2026-11-27",
+   "time": "20:30",
+   "cinema": "P1051",
+   "movie": "ga-196",
+   "version": "VF",
+   "screen": "Salle 2"
+  },
+  {
+   "date": "2026-11-27",
+   "time": "20:30",
+   "cinema": "P1051",
+   "movie": "ga-197",
+   "version": "VF",
+   "screen": "Salle 1"
   }
  ],
  "erreurs": []
