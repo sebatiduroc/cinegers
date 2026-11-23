@@ -1,7 +1,7 @@
 {
- "genere_le": "2026-11-22T13:46+01:00",
- "du": "2026-11-22",
- "au": "2026-11-28",
+ "genere_le": "2026-11-23T13:53+01:00",
+ "du": "2026-11-23",
+ "au": "2026-11-29",
  "cinemas": [
   {
    "id": "P1039",
@@ -20,6 +20,12 @@
    "ville": "Mauvezin",
    "nom": "Ciné Mauv'",
    "source": "cine32"
+  },
+  {
+   "id": "BDL",
+   "ville": "Beaumont",
+   "nom": "Les Nouveaux Bleus",
+   "source": "beaumont"
   }
  ],
  "films": {
@@ -214,25 +220,6 @@
    ],
    "synopsis": "Billie est une adolescente impulsive et anticonformiste. Lorsque la jeune fille libère accidentellement des pouvoirs magiques dont elle ignorait l’existence, elle se retrouve propulsée bien au-delà de sa banlieue ordinaire, dans une aventure spectaculaire au cœur de Hexe, un vaste royaume magique. Contrainte de faire équipe avec sa mère ultra protectrice, la prudente Alice, elle met à jour des secrets de famille susceptibles de transformer à jamais le monde des sorcières…"
   },
-  "313265": {
-   "titre": "Astérix - Le Royaume de Nubie",
-   "titre_original": "Astérix - Le Royaume de Nubie",
-   "affiche": "https://all.web.img.acsta.net/img/5d/82/5d822abd6caebdff0b065a16e93b7f76.jpg",
-   "genres": "Animation, Famille, Aventure, Comédie, Historique",
-   "duree_min": 86,
-   "realisateurs": [
-    "Alexandre Heboyan"
-   ],
-   "acteurs": [
-    "Christian Clavier",
-    "François-Xavier Demaison",
-    "Bernard Alane",
-    "Issa Doumbia",
-    "François De Brauer",
-    "Eye Haïdara"
-   ],
-   "synopsis": "Un village d’irréductibles Gaulois résiste encore et toujours à l’envahisseur… Mais pour combien de temps encore ? Un élixir de jouvence accidentellement versé dans la potion magique a transformé tout le village en enfants ! Une seule solution pour Astérix et Obélix : voyager loin, très loin… Jusqu’au Royaume de Nubie, où se trouve l’antidote qui sauvera le village !"
-  },
   "316136": {
    "titre": "Camembert",
    "titre_original": "Camembert",
@@ -347,24 +334,6 @@
     "Ailín Salas"
    ],
    "synopsis": "Peu avant le coup d'État chilien de 1973, deux agents de la CIA, Chris et Lee, sont envoyés de Santiago vers l'île de Pâques par leur supérieur, MJ. Au milieu des statues emblématiques de l'île, tandis que ces partenaires de longue date sont confrontés à leur sombre passé et aux complots en cours, Chris noue une relation avec deux étudiantes rebelles qui menace de faire basculer dans le chaos leur séjour dans ce paradis isolé…"
-  },
-  "ga-182": {
-   "titre": "La Gradiva",
-   "titre_original": "La Gradiva",
-   "affiche": "https://cinegrandangle.fr/img/w780/aFrhFiIhdf2klvXq8VFcB06b5pS.jpg",
-   "genres": "Drame",
-   "duree_min": 145,
-   "realisateurs": [
-    "Marine Atlan"
-   ],
-   "acteurs": [
-    "Colas Quignard",
-    "Antonia Buresi",
-    "Mitia Capellier-Audat",
-    "Suzanne Gerin",
-    "Hadya Fofana"
-   ],
-   "synopsis": "Un groupe de lycéens français part en voyage scolaire à Naples pour découvrir les ruines de Pompéi et ses corps pétrifiés par le Vésuve. C’est là que le vertige les saisit brutalement. L’un après l’autre, ils se laissent submerger par le désir et la colère jusqu’à s’y abandonner complètement."
   },
   "ga-193": {
    "titre": "Camembert",
@@ -522,64 +491,98 @@
     "Simon Jaspart"
    ],
    "synopsis": "Le jour de son départ à la retraite, Émile, professeur de lettres à Dieppe, donne à ses jeunes élèves un dernier cours sur la littérature et l’amour, les encourageant à devenir les poètes de leurs propres existences. Une fois rentré chez lui, Émile découvre que sa femme l’a quitté. Le voilà contraint d’appliquer à lui-même ses propres préceptes. Trois rencontres vont alors l’aider à se réinventer."
+  },
+  "ga-200": {
+   "titre": "Scrooge",
+   "titre_original": "Ebenezer",
+   "affiche": "https://cinegrandangle.fr/img/w780/uxYPnpkSmG1iluoSB0fOtYK7BfM.jpg",
+   "genres": "Fantastique, Comédie",
+   "duree_min": 115,
+   "realisateurs": [
+    "Ti West"
+   ],
+   "acteurs": [
+    "Johnny Depp",
+    "Rupert Grint",
+    "Daisy Ridley",
+    "Tramell Tillman",
+    "Ian McKellen"
+   ],
+   "synopsis": "Ebenezer Scrooge est un vieil homme avare, pingre et solitaire. Bien évidemment, il déteste et méprise Noël et tout ce qui engendre le bonheur. C'est alors qu'il reçoit la visite du fantôme d'un ancien associé ainsi que par les esprits de Noëls du passé, du présent et du futur."
+  },
+  "1000019577": {
+   "titre": "Rose Of Nevada",
+   "titre_original": "Rose Of Nevada",
+   "affiche": "https://all.web.img.acsta.net/img/8b/e4/8be402f56c93dc5ef1ef7c92ca84bd35.jpg",
+   "genres": "Drame",
+   "duree_min": 114,
+   "realisateurs": [
+    "Mark Jenkin"
+   ],
+   "acteurs": [
+    "George MacKay",
+    "Callum Turner",
+    "Francis Magee",
+    "Edward Rowe"
+   ],
+   "synopsis": "Dans un village de pêcheurs, un bateau apparaît mystérieusement dans le vieux port. La Rose de Nevada, perdue en mer avec tous ses hommes il y a 30 ans, est de retour. Pour les quelques personnes qui s'en souviennent, c'est un signe. La Rose of Nevada doit reprendre la mer, peut-être qu'alors la chance du village dévasté tournera. Nick accepte un emploi à bord du bateau pour tenter de subvenir aux besoins de sa famille. À ses côtés, Liam, nouvellement arrivé, se joint à l'équipage, afin d'échapper à son passé. Ils prennent la mer et, après un voyage réussi, rentrent au port. Mais quelque chose ne va pas. Ils ont remonté le temps et les villageois les accueillent comme s'ils étaient l'équipage d'origine."
+  },
+  "bd-justin-le-juste": {
+   "titre": "Justin le Juste",
+   "titre_original": null,
+   "affiche": null,
+   "genres": "Historique",
+   "duree_min": 110,
+   "realisateurs": [
+    "Eric Barbier"
+   ],
+   "acteurs": [],
+   "synopsis": "1915. Justin, paysan, est arraché à sa ferme pour combattre un ennemi qu’il ne connaît pas. Aux côtés de Basile, tirailleur sénégalais, il découvre l’absurdité de la guerre, se révolte contre le commandement et devient un héros malgré lui..",
+   "bande_annonce": "https://www.youtube.com/watch?v=XZw0NxySMxc"
+  },
+  "bd-hope": {
+   "titre": "Hope",
+   "titre_original": null,
+   "affiche": null,
+   "genres": "Action",
+   "duree_min": 157,
+   "realisateurs": [
+    "Na Hong-Jin"
+   ],
+   "acteurs": [],
+   "synopsis": "Alors que les secours sont mobilisés ailleurs et que toute communication est interrompue, les habitants de Hope doivent faire face seuls à une menace grandissante. Tandis que certains tentent de protéger le village, d’autres s’aventurent dans la montagne…",
+   "bande_annonce": "https://www.youtube.com/watch?v=0R6TmYtmwh8"
+  },
+  "bd-le-fantome-de-l-opera": {
+   "titre": "Le Fantôme de l'Opera",
+   "titre_original": null,
+   "affiche": null,
+   "genres": "Fantastique",
+   "duree_min": 134,
+   "realisateurs": [
+    "Alexandre Castagnetti"
+   ],
+   "acteurs": [],
+   "synopsis": "Dans le Paris d'aujourd'hui, Anastasia, jeune danseuse, intègre le prestigieux Opéra Garnier. Alors qu'elle répète l'Orpheus, un opéra maudit qui aurait été composé par le Fantôme de l'Opéra, elle tombe amoureuse d'un mystérieux pianiste.",
+   "bande_annonce": "https://youtu.be/jM2rEqHokXs?si=tjfz8Hk2KkvkIxl-"
   }
  },
  "seances": [
   {
-   "date": "2026-11-22",
-   "time": "16:00",
-   "cinema": "P1042",
-   "movie": "313265",
-   "version": "VF",
-   "screen": "CINEMA DE MAUVEZIN"
-  },
-  {
-   "date": "2026-11-22",
-   "time": "17:30",
-   "cinema": "P1039",
-   "movie": "1000012316",
-   "version": "VF",
-   "screen": "SALLE 2"
-  },
-  {
-   "date": "2026-11-22",
-   "time": "17:30",
-   "cinema": "P1039",
-   "movie": "322884",
-   "version": "VOSTFR",
-   "screen": "SALLE 1"
-  },
-  {
-   "date": "2026-11-22",
-   "time": "17:30",
-   "cinema": "P1051",
-   "movie": "ga-182",
-   "version": "VF",
-   "screen": "Salle 2"
-  },
-  {
-   "date": "2026-11-22",
-   "time": "17:30",
-   "cinema": "P1051",
-   "movie": "ga-193",
-   "version": "VF",
-   "screen": "Salle 1"
-  },
-  {
-   "date": "2026-11-22",
-   "time": "20:30",
-   "cinema": "P1039",
+   "date": "2026-11-23",
+   "time": "15:30",
+   "cinema": "BDL",
    "movie": "1000020311",
    "version": "VF",
-   "screen": "SALLE 1"
+   "screen": null
   },
   {
-   "date": "2026-11-22",
-   "time": "20:30",
-   "cinema": "P1039",
-   "movie": "298024",
-   "version": "VOSTFR",
-   "screen": "SALLE 2"
+   "date": "2026-11-23",
+   "time": "18:00",
+   "cinema": "BDL",
+   "movie": "bd-justin-le-juste",
+   "version": "VF",
+   "screen": null
   },
   {
    "date": "2026-11-23",
@@ -596,6 +599,14 @@
    "movie": "323550",
    "version": "VF",
    "screen": "SALLE 1"
+  },
+  {
+   "date": "2026-11-23",
+   "time": "20:30",
+   "cinema": "BDL",
+   "movie": "322884",
+   "version": "VOSTFR",
+   "screen": null
   },
   {
    "date": "2026-11-23",
@@ -620,6 +631,30 @@
    "movie": "ga-194",
    "version": "VF",
    "screen": "Salle 2"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "14:30",
+   "cinema": "BDL",
+   "movie": "bd-hope",
+   "version": "VF",
+   "screen": null
+  },
+  {
+   "date": "2026-11-24",
+   "time": "18:00",
+   "cinema": "BDL",
+   "movie": "1000012316",
+   "version": "VF",
+   "screen": null
+  },
+  {
+   "date": "2026-11-24",
+   "time": "20:30",
+   "cinema": "BDL",
+   "movie": "bd-le-fantome-de-l-opera",
+   "version": "VF",
+   "screen": null
   },
   {
    "date": "2026-11-24",
@@ -802,6 +837,62 @@
    "time": "21:00",
    "cinema": "P1039",
    "movie": "1000034007",
+   "version": "VF",
+   "screen": "SALLE 1"
+  },
+  {
+   "date": "2026-11-29",
+   "time": "16:00",
+   "cinema": "P1042",
+   "movie": "316136",
+   "version": "VF",
+   "screen": "CINEMA DE MAUVEZIN"
+  },
+  {
+   "date": "2026-11-29",
+   "time": "17:30",
+   "cinema": "P1039",
+   "movie": "1000012316",
+   "version": "VF",
+   "screen": "SALLE 2"
+  },
+  {
+   "date": "2026-11-29",
+   "time": "17:30",
+   "cinema": "P1039",
+   "movie": "1000019577",
+   "version": "VOSTFR",
+   "screen": "SALLE 1"
+  },
+  {
+   "date": "2026-11-29",
+   "time": "17:30",
+   "cinema": "P1051",
+   "movie": "ga-197",
+   "version": "VF",
+   "screen": "Salle 1"
+  },
+  {
+   "date": "2026-11-29",
+   "time": "17:30",
+   "cinema": "P1051",
+   "movie": "ga-200",
+   "version": "VF",
+   "screen": "Salle 2"
+  },
+  {
+   "date": "2026-11-29",
+   "time": "20:30",
+   "cinema": "P1039",
+   "movie": "298024",
+   "version": "VOSTFR",
+   "screen": "SALLE 2"
+  },
+  {
+   "date": "2026-11-29",
+   "time": "20:30",
+   "cinema": "P1039",
+   "movie": "316136",
    "version": "VF",
    "screen": "SALLE 1"
   }
