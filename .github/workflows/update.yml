@@ -16,6 +16,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Installation de pypdf (lecture du tract de Beaumont)
+        run: pip install pypdf
       - name: Collecte du programme
         run: python scripts/collect.py
       - name: Publication

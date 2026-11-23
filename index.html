@@ -3,17 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cinémas de Lectoure, Fleurance et Mauvezin : programme de la semaine</title>
-<meta name="description" content="Séances de la semaine au Sénéchal (Lectoure), au Grand Angle (Fleurance) et au Ciné Mauv’ (Mauvezin), avec la version VF ou VOSTFR.">
+<title>Cinémas de Lectoure, Fleurance, Mauvezin et Beaumont : programme de la semaine</title>
+<meta name="description" content="Séances de la semaine au Sénéchal (Lectoure), au Grand Angle (Fleurance) et au Ciné Mauv’ (Mauvezin) et aux Nouveaux Bleus (Beaumont), avec la version VF ou VOSTFR.">
 <style>
 :root{
   --bg:#f3f4f6; --card:#fff; --ink:#151b2b; --mute:#5b6478; --line:#dde1e8;
   --yellow:#ffd23f; --on-yellow:#151b2b; --focus:#1f4fd8; --on-c:#fff;
-  --c-P1039:#b3262e; --c-P1051:#1f6fb2; --c-P1042:#2e7d4f;
+  --c-P1039:#b3262e; --c-P1051:#1f6fb2; --c-P1042:#2e7d4f; --c-BDL:#7a3fa3;
 }
 @media (prefers-color-scheme:dark){
   :root{ --bg:#0f1420; --card:#171e2e; --ink:#eef1f6; --mute:#9aa4b8; --line:#2a3347; --focus:#8fb0ff;
-    --c-P1039:#ff6b73; --c-P1051:#5eb0f0; --c-P1042:#5fcf8b; --on-c:#0f1420; }
+    --c-P1039:#ff6b73; --c-P1051:#5eb0f0; --c-P1042:#5fcf8b; --c-BDL:#c9a0f0; --on-c:#0f1420; }
 }
 *{box-sizing:border-box}
 html{scroll-padding-top:7rem}
@@ -28,6 +28,8 @@ h1{margin:0;font-size:clamp(1.6rem,5vw,2.4rem);line-height:1.1;letter-spacing:-.
 .bar-in{max-width:56rem;margin:0 auto;padding:.6rem 1rem}
 .row{display:flex;gap:.5rem;overflow-x:auto;padding:.15rem 0;scrollbar-width:thin}
 .row+.row{margin-top:.5rem}
+#cinemas{display:grid;grid-template-columns:1fr 1fr;overflow:visible}
+#cinemas .chip{justify-content:center}
 button{font:inherit;color:inherit;cursor:pointer}
 .day,.chip{flex:none;border:1px solid var(--line);background:var(--card);border-radius:.6rem;padding:.35rem .8rem}
 .day{display:grid;text-align:center;line-height:1.2;min-width:4.2rem}
@@ -87,7 +89,7 @@ footer{max-width:56rem;margin:0 auto;padding:1rem 1rem 2.5rem;color:var(--mute);
 <body>
 <header>
   <h1>Au cinéma cette semaine</h1>
-  <p class="sub">Lectoure, Fleurance et Mauvezin</p>
+  <p class="sub">Lectoure, Fleurance, Mauvezin et Beaumont</p>
 </header>
 <div class="bar"><div class="bar-in">
   <div class="row" id="days" role="group" aria-label="Choisir un jour"></div>
@@ -163,9 +165,10 @@ function renderBar() {
 }
 
 function dayList() {
-  const out = [], end = dayObj(data.au);
-  for (let d = dayObj(data.du); d <= end; d.setDate(d.getDate() + 1)) out.push(d.toLocaleDateString("sv-SE"));
-  return out;
+  const all = [], end = dayObj(data.au);
+  for (let d = dayObj(data.du); d <= end; d.setDate(d.getDate() + 1)) all.push(d.toLocaleDateString("sv-SE"));
+  const upcoming = all.filter(d => d >= parisNow().date);
+  return upcoming.length ? upcoming : all;
 }
 
 function render() {
@@ -222,6 +225,7 @@ function openFilm(id) {
       f.titre_original && f.titre_original !== f.titre && h("p", { class: "meta" }, `Titre original : ${f.titre_original}`),
       h("dl", {}, rows),
       h("p", {}, f.synopsis || "Synopsis non disponible."),
+      f.bande_annonce && h("p", {}, h("a", { href: f.bande_annonce, target: "_blank", rel: "noopener" }, "Voir la bande-annonce")),
       week)));
   $("#dlg").showModal();
 }
@@ -243,9 +247,11 @@ async function init() {
   $("#foot").replaceChildren(
     h("p", {}, `Programme mis à jour le ${maj}. Sources : `,
       h("a", { href: "https://www.cine32gers.com/" }, "Ciné 32"),
-      " (Lectoure, Mauvezin) et ",
+      " (Lectoure, Mauvezin), ",
       h("a", { href: "https://cinegrandangle.fr/programme" }, "Cinéma Grand Angle"),
-      " (Fleurance). Affiches : AlloCiné et Grand Angle. Les horaires peuvent changer : vérifiez auprès du cinéma.")
+      " (Fleurance) et ",
+      h("a", { href: "https://www.beaumontdelomagne.fr/vivre-a-beaumont/cinema" }, "Mairie de Beaumont-de-Lomagne"),
+      " (Beaumont). Affiches : AlloCiné et Grand Angle. Les horaires peuvent changer : vérifiez auprès du cinéma.")
   );
   render();
 }

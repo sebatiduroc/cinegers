@@ -1,14 +1,16 @@
 # Cinémas de Lectoure, Fleurance et Mauvezin : programme de la semaine
 
-Site qui affiche, pour les 7 prochains jours, les séances du **Sénéchal (Lectoure)**,
-du **Grand Angle (Fleurance)** et du **Ciné Mauv' (Mauvezin)** : titre, version
+Site qui affiche, pour les 7 prochains jours (semaine glissante, mise à jour chaque matin), les séances du **Sénéchal (Lectoure)**,
+du **Grand Angle (Fleurance)**, du **Ciné Mauv' (Mauvezin)** et des **Nouveaux Bleus (Beaumont-de-Lomagne)** : titre, version
 (VF ou VOSTFR), horaires, affiche et, au clic sur le titre, réalisateur, acteurs et synopsis.
 
-Les données viennent de deux sources, sans clé d'API ni compte :
+Les données viennent de trois sources, sans clé d'API ni compte :
 
 - **Lectoure et Mauvezin** : l'API que le site de Ciné 32 (cine32gers.com) utilise lui-même.
 - **Fleurance** : le Grand Angle a quitté Ciné 32. Ses séances viennent de son propre site, cinegrandangle.fr
   (fichier `/data.json`, ou à défaut le bloc de données intégré à la page `/programme`).
+- **Beaumont** : la page cinéma du site de la mairie (beaumontdelomagne.fr). Elle ne donne que le titre (dans le nom des
+  images), le jour, l'heure, la mention VOST et la durée. Voir « Beaumont » plus bas.
 
 ## Fonctionnement
 
@@ -51,9 +53,36 @@ Les séances spéciales (avant-première, rencontre) affichent leur intitulé so
 | Lectoure | Le Sénéchal | `P1039` | Ciné 32 |
 | Fleurance | Grand Angle | `P1051` (identifiant interne) | cinegrandangle.fr |
 | Mauvezin | Ciné Mauv' | `P1042` | Ciné 32 |
+| Beaumont | Les Nouveaux Bleus | `BDL` (identifiant interne) | site de la mairie |
 
 Pour ajouter un autre cinéma de Ciné 32, ajoutez une ligne dans `CINEMAS` (`scripts/collect.py`, `"source": "cine32"`)
 et une couleur `--c-Pxxxx` dans `index.html`.
+
+## Beaumont (Les Nouveaux Bleus)
+
+La mairie publie sa programmation sous forme d'images, avec peu de texte :
+
+- **Version** : « VOST » est indiqué ; l'absence de mention est comptée comme **VF** (hypothèse, à vérifier au besoin).
+- **Fiche du film**, par ordre de préférence :
+  1. si le même film passe cette semaine dans un autre cinéma suivi, sa fiche complète (affiche, réalisateur,
+     acteurs, synopsis) est reprise ;
+  2. sinon, la fiche est lue dans le **tract PDF** de la mairie (titre, genre, durée, réalisateur, synopsis). Son adresse
+     change à chaque programme : le script la retrouve chaque jour grâce au lien « découvrez notre programme » de la page ;
+  3. sinon, titre déduit du nom de l'image (sans accents), durée et lien vers la bande-annonce.
+- Le tract contient aussi une grille d'horaires sur plusieurs semaines, mais dessinée (pas du texte) : elle n'est pas lue.
+  Les séances viennent uniquement de la page.
+- Les textes du tract sont repris tels quels, avec leurs éventuelles fautes. Pas d'affiche ni d'acteurs pour ces films.
+- Le tract est lu avec la bibliothèque `pypdf`, installée par le workflow. Pour tester en local : `pip install pypdf`.
+  Si elle manque, ou si le tract est illisible, le site fonctionne quand même (fiches minimales) et le champ `erreurs`
+  de `programme.json` l'indique.
+- **Animations** (conférence, etc.) : affichées avec leur intitulé, sans durée.
+- La mairie publie le programme semaine par semaine : les jours non encore publiés sont simplement vides.
+
+## Fréquence de mise à jour
+
+Le workflow tourne **tous les jours** (voir `cron` dans `.github/workflows/update.yml`) et calcule à chaque fois la
+fenêtre « aujourd'hui + 6 jours ». La page masque en plus les jours déjà passés, même si une collecte est en retard.
+Les cinémas, eux, ne publient souvent leur programme qu'une fois par semaine.
 
 ## Si un cinéma n'affiche rien
 
