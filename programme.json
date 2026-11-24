@@ -1,7 +1,7 @@
 {
- "genere_le": "2026-11-23T16:06+01:00",
- "du": "2026-11-23",
- "au": "2026-11-29",
+ "genere_le": "2026-11-24T16:04+01:00",
+ "du": "2026-11-24",
+ "au": "2026-11-30",
  "cinemas": [
   {
    "id": "P1039",
@@ -66,25 +66,6 @@
    ],
    "synopsis": "Juin 1943, Jean Moulin, chef de la Résistance, est arrêté alors qu'il tente de réunifier les forces de l’Armée Secrète. Interrogé par Klaus Barbie, le chef de la Gestapo de Lyon, Moulin est entraîné dans une confrontation implacable. Son ultime combat face à la manipulation et la brutalité commence.  Le destin de la France libre en dépend."
   },
-  "1000026725": {
-   "titre": "Une femme aujourd’hui",
-   "titre_original": "Une femme aujourd’hui",
-   "affiche": "https://all.web.img.acsta.net/img/92/7f/927fd5891c142dc643f5851ba85d8393.jpg",
-   "genres": "Comédie dramatique",
-   "duree_min": null,
-   "realisateurs": [
-    "Robert Guédiguian"
-   ],
-   "acteurs": [
-    "Marilou Aussilloux",
-    "Ariane Ascaride",
-    "Jean-Pierre Darroussin",
-    "Grégoire Leprince-Ringuet",
-    "Gérard Meylan",
-    "Lola Naymark"
-   ],
-   "synopsis": "Juliette, 30 ans, semble avoir tout pour elle : un poste prestigieux dans la finance, une belle maison, une vie rythmée par les voyages et les amours de passage. Lorsqu’elle est agressée par un collègue, son monde s’effondre. Juliette s'engage alors sur un nouveau chemin pour redonner un sens à sa vie."
-  },
   "1000031925": {
    "titre": "Un bon patron",
    "titre_original": "Un bon patron",
@@ -103,25 +84,6 @@
     "Patrick Ligardes"
    ],
    "synopsis": "En quelques jours seulement, tout semble virer à la catastrophe pour Antoine Blanchet, héritier de l’ancestrale fabrique familiale de balances. Un ex-employé viré qui proteste bruyamment et campe devant l’usine ; Un contremaître qui met en péril la production, parce que sa femme le trompe ; Une stagiaire irrésistible qui fait tourner les têtes… À la veille de recevoir un prix d’excellence censé honorer son usine, il doit, en urgence, sauver l’entreprise et maintenir le calme dans son petit univers bien organisé. Il s’y attelle, à sa manière, paternaliste et autoritaire : en bon patron ?"
-  },
-  "1000033620": {
-   "titre": "Irish Travellers",
-   "titre_original": "Tin Castle",
-   "affiche": "https://all.web.img.acsta.net/img/68/57/6857fdb3b89fdd00da7d32b5f2faea69.jpg",
-   "genres": "Documentaire",
-   "duree_min": 96,
-   "realisateurs": [
-    "Alexander Murphy"
-   ],
-   "acteurs": [
-    "Pa O’Reilly",
-    "Lisa O'Reilly",
-    "Sean O’Reilly",
-    "Paddy O’Reilly",
-    "Chantelle O’Reilly",
-    "Tina O’Reilly"
-   ],
-   "synopsis": "Le long d'une route oubliée, la famille O'Reilly vit dans une vieille caravane échouée au milieu des champs. Pa, Lisa et leurs dix enfants traversent les saisons dans ce fragile château de tôle, héritiers d'un mode de vie en sursis. Menacés d'expulsion, leur équilibre de fortune vacille mais ils résistent, fidèles à leurs traditions. Les enfants rient, les chiens aboient, la caravane tient encore, mais pour combien de temps ?"
   },
   "1000034007": {
    "titre": "Scrooge",
@@ -279,26 +241,6 @@
    ],
    "synopsis": "Mise au ban de son village, une pêcheuse solitaire commande au vannier local un mari en osier. Cet époux improbable se révèle doté d’une sensibilité et de talents qui dépassent toutes ses attentes. À son contact, elle découvre un désir insoupçonné et, peu à peu, s’éprend véritablement de lui. Mais bientôt, son étrange mari attise les convoitises, la jalousie et les fantasmes des villageois, faisant vaciller les certitudes d’une communauté jusque-là bien ordonnée."
   },
-  "323550": {
-   "titre": "L'Affaire Marie-Claire",
-   "titre_original": "L'Affaire Marie-Claire",
-   "affiche": "https://all.web.img.acsta.net/img/4a/3c/4a3cf95bb345d5d71bdc7acf3430323b.jpg",
-   "genres": "Thriller, Judiciaire, Historique",
-   "duree_min": 102,
-   "realisateurs": [
-    "Lauriane Escaffre",
-    "Yvo Muller"
-   ],
-   "acteurs": [
-    "Charlotte Gainsbourg",
-    "Cécile de France",
-    "Grégory Gadebois",
-    "Saül Benchetrit",
-    "Sarah Suco",
-    "Florence Loiret Caille"
-   ],
-   "synopsis": "Novembre 1972. Au tribunal de Bobigny, un procès hors norme secoue la France entière. Marie-Claire Chevalier, 16 ans, est accusée d’avoir avorté illégalement. À la barre, sa mère et toutes les femmes qui l’ont aidée. Leur avocate, Gisèle Halimi, fait un pari fou, insensé : elle leur demande de ne pas plaider coupable. Gisèle va faire ce qui n’a jamais été fait auparavant, elle va accuser et attaquer la loi, au risque de tout perdre."
-  },
   "ga-186": {
    "titre": "Moulin",
    "titre_original": "Moulin",
@@ -352,24 +294,6 @@
     "Guillermo Guiz"
    ],
    "synopsis": "Lors du dîner du réveillon chez les Roussel, Stan rencontre pour la première fois la grande famille bourgeoise de sa petite amie, Cléo. Tout semble parfait… jusqu’à ce que le groupe décide de lancer une partie de Trivial Pursuit. Face à ces érudits surentraînés, Stan sait qu’il n’a aucune chance. Mais France, sa belle-mère autoritaire, ne lui laisse pas le choix. Après tout, ce n’est \"qu’un jeu \"…"
-  },
-  "ga-194": {
-   "titre": "15/18",
-   "titre_original": "15/18",
-   "affiche": "https://cinegrandangle.fr/img/w780/nlqZ62tEobENzeLxNUXANgz8XJa.jpg",
-   "genres": "Drame",
-   "duree_min": 104,
-   "realisateurs": [
-    "Cédric Kahn"
-   ],
-   "acteurs": [
-    "Malou Khebizi",
-    "Zoé monpart",
-    "Kenji Peyran",
-    "Raphaël Besson",
-    "Patience Munchenbach"
-   ],
-   "synopsis": "Lucia, 17 ans, est amenée par la police dans une unité de soins pédopsychiatriques de l’hôpital public. Ici tous les patients ont entre 15 et 18 ans. Lucia connaît l’endroit, elle y a fait de nombreux séjours. Elle retrouve son amie Eloïse, en hospitalisation longue durée, mais aussi Yasmine, Camilia, Ulysse, André… tous ont des pathologies et des parcours différents. Les médecins les soignent, les écoutent, reçoivent leurs parents, tout en gérant un service en surchauffe. Mais un jour, l’arrivée du mystérieux Enzo menace de tout bouleverser."
   },
   "ga-158": {
    "titre": "Les Misérables",
@@ -527,19 +451,6 @@
    ],
    "synopsis": "Dans un village de pêcheurs, un bateau apparaît mystérieusement dans le vieux port. La Rose de Nevada, perdue en mer avec tous ses hommes il y a 30 ans, est de retour. Pour les quelques personnes qui s'en souviennent, c'est un signe. La Rose of Nevada doit reprendre la mer, peut-être qu'alors la chance du village dévasté tournera. Nick accepte un emploi à bord du bateau pour tenter de subvenir aux besoins de sa famille. À ses côtés, Liam, nouvellement arrivé, se joint à l'équipage, afin d'échapper à son passé. Ils prennent la mer et, après un voyage réussi, rentrent au port. Mais quelque chose ne va pas. Ils ont remonté le temps et les villageois les accueillent comme s'ils étaient l'équipage d'origine."
   },
-  "bd-justin-le-juste": {
-   "titre": "Justin le Juste",
-   "titre_original": null,
-   "affiche": null,
-   "genres": "Historique",
-   "duree_min": 110,
-   "realisateurs": [
-    "Eric Barbier"
-   ],
-   "acteurs": [],
-   "synopsis": "1915. Justin, paysan, est arraché à sa ferme pour combattre un ennemi qu’il ne connaît pas. Aux côtés de Basile, tirailleur sénégalais, il découvre l’absurdité de la guerre, se révolte contre le commandement et devient un héros malgré lui..",
-   "bande_annonce": "https://www.youtube.com/watch?v=XZw0NxySMxc"
-  },
   "bd-hope": {
    "titre": "Hope",
    "titre_original": null,
@@ -565,73 +476,94 @@
    "acteurs": [],
    "synopsis": "Dans le Paris d'aujourd'hui, Anastasia, jeune danseuse, intègre le prestigieux Opéra Garnier. Alors qu'elle répète l'Orpheus, un opéra maudit qui aurait été composé par le Fantôme de l'Opéra, elle tombe amoureuse d'un mystérieux pianiste.",
    "bande_annonce": "https://youtu.be/jM2rEqHokXs?si=tjfz8Hk2KkvkIxl-"
+  },
+  "bd-quelques-mots-d-amour": {
+   "titre": "Quelques Mots d'Amour",
+   "titre_original": null,
+   "affiche": null,
+   "genres": "Drame",
+   "duree_min": 97,
+   "realisateurs": [
+    "Rudi Rosenberg"
+   ],
+   "acteurs": [],
+   "synopsis": "Sarcelles, 1995. Erika élève seule ses deux enfants. Sa fille Abigaëlle se persuade que son père, qu’elle n’a jamais connu, l’aime en silence quelque part. Lorsqu’elle se met en tête de le retrouver, Erika se sent obligée de l’aider, tout en cherchant à la protéger.",
+   "bande_annonce": "https://youtu.be/kBJGhdd0AeU?si=l-ZUiybTJiGtRu3f"
+  },
+  "bd-clayface": {
+   "titre": "Clayface",
+   "titre_original": null,
+   "affiche": null,
+   "genres": "Horreur",
+   "duree_min": 108,
+   "realisateurs": [
+    "James Watkins"
+   ],
+   "acteurs": [],
+   "synopsis": "CLAYFACE raconte la terrifiante descente aux enfers d’un acteur prometteur d’Hollywood devenu un monstre animé par la vengeance. Une histoire intense qui explore la perte d’identité et d’humanité, les ravages de l’amour toxique et la face sombre de l’ambition scientifique",
+   "bande_annonce": "https://youtu.be/C3HH7_FQlRY?si=PBFq2glwb984Nizp"
+  },
+  "bd-outre-mer-terre-des-solutions": {
+   "titre": "Outre-mer Terre des Solutions",
+   "titre_original": null,
+   "affiche": null,
+   "genres": "Documentaire",
+   "duree_min": 52,
+   "realisateurs": [
+    "Hélène Trigueros"
+   ],
+   "acteurs": [],
+   "synopsis": "Pour se nourrir, les Outre-mer dépendent en grande partie des importations. Cette dépendance alimentaire est au cœur des enjeux de demain et reste l'une des préoccupations principales de la population.",
+   "bande_annonce": null
+  },
+  "bd-gros-corps-en-mele": {
+   "titre": "Gros corps en mele",
+   "titre_original": null,
+   "affiche": null,
+   "genres": "",
+   "duree_min": 52,
+   "realisateurs": [],
+   "acteurs": [],
+   "synopsis": null,
+   "bande_annonce": "https://www.youtube.com/watch?v=GjkTEZHcdz8"
+  },
+  "bd-godzilla": {
+   "titre": "Godzilla",
+   "titre_original": null,
+   "affiche": null,
+   "genres": "",
+   "duree_min": 135,
+   "realisateurs": [],
+   "acteurs": [],
+   "synopsis": null,
+   "bande_annonce": "https://youtu.be/UrKLwdyAU5Q?si=kdcW539F6jMKRmQD"
+  },
+  "bd-oreille": {
+   "titre": "Oreille",
+   "titre_original": null,
+   "affiche": null,
+   "genres": "",
+   "duree_min": 111,
+   "realisateurs": [],
+   "acteurs": [],
+   "synopsis": null,
+   "bande_annonce": "https://youtu.be/nZDFeD3wQNY?si=Om1-uPtgyepCHIH_"
+  },
+  "bd-peking-opera-blues": {
+   "titre": "Peking Opera Blues",
+   "titre_original": null,
+   "affiche": null,
+   "genres": "Action",
+   "duree_min": 104,
+   "realisateurs": [
+    "Tsui Hark"
+   ],
+   "acteurs": [],
+   "synopsis": "Peu de temps après l’instauration de la République de Chine, le pays est soumis à un contrôle militaire, et disputé par différents groupes. Tsao Wan est la fille d’un seigneur de guerre, mais elle appartient secrètement à un groupe de révolutionnaires.",
+   "bande_annonce": "https://youtu.be/wQbp5ZGd-B8?si=kr-0k7dF-s4EJpl5"
   }
  },
  "seances": [
-  {
-   "date": "2026-11-23",
-   "time": "15:30",
-   "cinema": "BDL",
-   "movie": "1000020311",
-   "version": "VF",
-   "screen": null
-  },
-  {
-   "date": "2026-11-23",
-   "time": "18:00",
-   "cinema": "BDL",
-   "movie": "bd-justin-le-juste",
-   "version": "VF",
-   "screen": null
-  },
-  {
-   "date": "2026-11-23",
-   "time": "19:00",
-   "cinema": "P1039",
-   "movie": "1000033620",
-   "version": "VOSTFR",
-   "screen": "SALLE 2"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "19:00",
-   "cinema": "P1039",
-   "movie": "323550",
-   "version": "VF",
-   "screen": "SALLE 1"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "20:30",
-   "cinema": "BDL",
-   "movie": "322884",
-   "version": "VOSTFR",
-   "screen": null
-  },
-  {
-   "date": "2026-11-23",
-   "time": "20:30",
-   "cinema": "P1042",
-   "movie": "1000026725",
-   "version": "VF",
-   "screen": "CINEMA DE MAUVEZIN"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "20:30",
-   "cinema": "P1051",
-   "movie": "ga-193",
-   "version": "VF",
-   "screen": "Salle 1"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "20:30",
-   "cinema": "P1051",
-   "movie": "ga-194",
-   "version": "VF",
-   "screen": "Salle 2"
-  },
   {
    "date": "2026-11-24",
    "time": "14:30",
@@ -698,6 +630,22 @@
   },
   {
    "date": "2026-11-25",
+   "time": "18:00",
+   "cinema": "BDL",
+   "movie": "bd-quelques-mots-d-amour",
+   "version": "VF",
+   "screen": null
+  },
+  {
+   "date": "2026-11-25",
+   "time": "20:30",
+   "cinema": "BDL",
+   "movie": "bd-clayface",
+   "version": "VOSTFR",
+   "screen": null
+  },
+  {
+   "date": "2026-11-25",
    "time": "20:30",
    "cinema": "P1039",
    "movie": "316136",
@@ -723,6 +671,14 @@
   {
    "date": "2026-11-26",
    "time": "19:00",
+   "cinema": "BDL",
+   "movie": "bd-outre-mer-terre-des-solutions",
+   "version": "VF",
+   "screen": null
+  },
+  {
+   "date": "2026-11-26",
+   "time": "19:00",
    "cinema": "P1039",
    "movie": "1000039483",
    "version": "VF",
@@ -743,6 +699,30 @@
    "movie": "1000034007",
    "version": "VF",
    "screen": "CINEMA DE MAUVEZIN"
+  },
+  {
+   "date": "2026-11-27",
+   "time": "15:30",
+   "cinema": "BDL",
+   "movie": "bd-quelques-mots-d-amour",
+   "version": "VF",
+   "screen": null
+  },
+  {
+   "date": "2026-11-27",
+   "time": "18:00",
+   "cinema": "BDL",
+   "movie": "298024",
+   "version": "VF",
+   "screen": null
+  },
+  {
+   "date": "2026-11-27",
+   "time": "20:30",
+   "cinema": "BDL",
+   "movie": "bd-gros-corps-en-mele",
+   "version": "VF",
+   "screen": null
   },
   {
    "date": "2026-11-27",
@@ -810,6 +790,22 @@
   },
   {
    "date": "2026-11-28",
+   "time": "18:00",
+   "cinema": "BDL",
+   "movie": "bd-clayface",
+   "version": "VF",
+   "screen": null
+  },
+  {
+   "date": "2026-11-28",
+   "time": "20:30",
+   "cinema": "BDL",
+   "movie": "bd-godzilla",
+   "version": "VF",
+   "screen": null
+  },
+  {
+   "date": "2026-11-28",
    "time": "20:30",
    "cinema": "P1051",
    "movie": "ga-186",
@@ -839,6 +835,14 @@
    "movie": "1000034007",
    "version": "VF",
    "screen": "SALLE 1"
+  },
+  {
+   "date": "2026-11-29",
+   "time": "16:00",
+   "cinema": "BDL",
+   "movie": "bd-oreille",
+   "version": "VF",
+   "screen": null
   },
   {
    "date": "2026-11-29",
@@ -882,6 +886,14 @@
   },
   {
    "date": "2026-11-29",
+   "time": "18:30",
+   "cinema": "BDL",
+   "movie": "1000031925",
+   "version": "VF",
+   "screen": null
+  },
+  {
+   "date": "2026-11-29",
    "time": "20:30",
    "cinema": "P1039",
    "movie": "298024",
@@ -895,6 +907,70 @@
    "movie": "316136",
    "version": "VF",
    "screen": "SALLE 1"
+  },
+  {
+   "date": "2026-11-30",
+   "time": "15:30",
+   "cinema": "BDL",
+   "movie": "298024",
+   "version": "VF",
+   "screen": null
+  },
+  {
+   "date": "2026-11-30",
+   "time": "18:00",
+   "cinema": "BDL",
+   "movie": "bd-gros-corps-en-mele",
+   "version": "VF",
+   "screen": null
+  },
+  {
+   "date": "2026-11-30",
+   "time": "19:00",
+   "cinema": "P1039",
+   "movie": "1000039483",
+   "version": "VF",
+   "screen": "SALLE 1"
+  },
+  {
+   "date": "2026-11-30",
+   "time": "19:00",
+   "cinema": "P1039",
+   "movie": "322884",
+   "version": "VOSTFR",
+   "screen": "SALLE 2"
+  },
+  {
+   "date": "2026-11-30",
+   "time": "20:30",
+   "cinema": "BDL",
+   "movie": "bd-peking-opera-blues",
+   "version": "VOSTFR",
+   "screen": null
+  },
+  {
+   "date": "2026-11-30",
+   "time": "20:30",
+   "cinema": "P1042",
+   "movie": "1000039483",
+   "version": "VF",
+   "screen": "CINEMA DE MAUVEZIN"
+  },
+  {
+   "date": "2026-11-30",
+   "time": "20:30",
+   "cinema": "P1051",
+   "movie": "ga-196",
+   "version": "VF",
+   "screen": "Salle 2"
+  },
+  {
+   "date": "2026-11-30",
+   "time": "20:30",
+   "cinema": "P1051",
+   "movie": "ga-199",
+   "version": "VF",
+   "screen": "Salle 1"
   }
  ],
  "erreurs": []
