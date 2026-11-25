@@ -1,7 +1,7 @@
 {
- "genere_le": "2026-11-24T16:04+01:00",
- "du": "2026-11-24",
- "au": "2026-11-30",
+ "genere_le": "2026-11-25T15:44+01:00",
+ "du": "2026-11-25",
+ "au": "2026-12-01",
  "cinemas": [
   {
    "id": "P1039",
@@ -295,42 +295,6 @@
    ],
    "synopsis": "Lors du dîner du réveillon chez les Roussel, Stan rencontre pour la première fois la grande famille bourgeoise de sa petite amie, Cléo. Tout semble parfait… jusqu’à ce que le groupe décide de lancer une partie de Trivial Pursuit. Face à ces érudits surentraînés, Stan sait qu’il n’a aucune chance. Mais France, sa belle-mère autoritaire, ne lui laisse pas le choix. Après tout, ce n’est \"qu’un jeu \"…"
   },
-  "ga-158": {
-   "titre": "Les Misérables",
-   "titre_original": "Les Misérables",
-   "affiche": "https://cinegrandangle.fr/img/w780/tY3CoBNTCpvJayVRLqIIGDa4Ep8.jpg",
-   "genres": "Histoire, Romance, Drame",
-   "duree_min": 178,
-   "realisateurs": [
-    "Fred Cavayé"
-   ],
-   "acteurs": [
-    "Vincent Lindon",
-    "Tahar Rahim",
-    "Camille Cottin",
-    "Benjamin Lavernhe",
-    "Noémie Merlant"
-   ],
-   "synopsis": "Jean Valjean, un ancien forçat évadé du bagne où il a passé 16 ans pour avoir volé du pain, seconsacre désormais à faire le bien autour de lui. Il se crée une nouvelle identité, celle d'un notable respecté, et vient en aide à Fantine, une ouvrière mourante en lui promettant de sauver sa fille, la petite Cosette, des griffes des Thénardier, des aubergistes qui l'exploitent et la maltraitent. Alors que Valjean prend soin de l'enfant et l'élève comme sa propre fille, son passé finit par le rattraper en la personne de l’inspecteur Javert qui n'a eu de cesse de le pourchasser durant toutes ces années. En dépit de l'agitation sociale qui secoue la France, les destins de Valjean, de Cosette, de son amant Marius et de Javert s'entremêlent dans un Paris bouillonnant et révolutionnaire. À travers des luttes, des sacrifices et un profond désir de justice, Valjean s'efforce d'achever son parcours de rédemption et d'offrir à Cosette un avenir d'amour et de liberté."
-  },
-  "ga-195": {
-   "titre": "Irish Travellers",
-   "titre_original": "Tin Castle",
-   "affiche": "https://cinegrandangle.fr/img/w780/f5wjPBFW7jZ33iV784gEY4JsRg0.jpg",
-   "genres": "Documentaire",
-   "duree_min": 106,
-   "realisateurs": [
-    "Alexander Murphy"
-   ],
-   "acteurs": [
-    "Pa O’Reilly",
-    "Lisa O’Reilly",
-    "Sean O’Reilly",
-    "Paddy O’Reilly",
-    "Chantelle O’Reilly"
-   ],
-   "synopsis": "Le long d'une route oubliée, la famille O'Reilly vit dans une vieille caravane échouée au milieu des champs. Pa, Lisa et leurs dix enfants traversent les saisons dans ce fragile château de tôle, héritiers d'un mode de vie en sursis. Menacés d'expulsion, leur équilibre de fortune vacille mais ils résistent, fidèles à leurs traditions. Les enfants rient, les chiens aboient, la caravane tient encore, mais pour combien de temps ?"
-  },
   "ga-196": {
    "titre": "Demain, je tombe amoureux",
    "titre_original": "Demain, je tombe amoureux",
@@ -412,7 +376,7 @@
     "Chiara Mastroianni",
     "Carole Bouquet",
     "Hélène Alexandridis",
-    "Simon Jaspart"
+    "Evelyne Istria"
    ],
    "synopsis": "Le jour de son départ à la retraite, Émile, professeur de lettres à Dieppe, donne à ses jeunes élèves un dernier cours sur la littérature et l’amour, les encourageant à devenir les poètes de leurs propres existences. Une fois rentré chez lui, Émile découvre que sa femme l’a quitté. Le voilà contraint d’appliquer à lui-même ses propres préceptes. Trois rencontres vont alors l’aider à se réinventer."
   },
@@ -450,32 +414,6 @@
     "Edward Rowe"
    ],
    "synopsis": "Dans un village de pêcheurs, un bateau apparaît mystérieusement dans le vieux port. La Rose de Nevada, perdue en mer avec tous ses hommes il y a 30 ans, est de retour. Pour les quelques personnes qui s'en souviennent, c'est un signe. La Rose of Nevada doit reprendre la mer, peut-être qu'alors la chance du village dévasté tournera. Nick accepte un emploi à bord du bateau pour tenter de subvenir aux besoins de sa famille. À ses côtés, Liam, nouvellement arrivé, se joint à l'équipage, afin d'échapper à son passé. Ils prennent la mer et, après un voyage réussi, rentrent au port. Mais quelque chose ne va pas. Ils ont remonté le temps et les villageois les accueillent comme s'ils étaient l'équipage d'origine."
-  },
-  "bd-hope": {
-   "titre": "Hope",
-   "titre_original": null,
-   "affiche": null,
-   "genres": "Action",
-   "duree_min": 157,
-   "realisateurs": [
-    "Na Hong-Jin"
-   ],
-   "acteurs": [],
-   "synopsis": "Alors que les secours sont mobilisés ailleurs et que toute communication est interrompue, les habitants de Hope doivent faire face seuls à une menace grandissante. Tandis que certains tentent de protéger le village, d’autres s’aventurent dans la montagne…",
-   "bande_annonce": "https://www.youtube.com/watch?v=0R6TmYtmwh8"
-  },
-  "bd-le-fantome-de-l-opera": {
-   "titre": "Le Fantôme de l'Opera",
-   "titre_original": null,
-   "affiche": null,
-   "genres": "Fantastique",
-   "duree_min": 134,
-   "realisateurs": [
-    "Alexandre Castagnetti"
-   ],
-   "acteurs": [],
-   "synopsis": "Dans le Paris d'aujourd'hui, Anastasia, jeune danseuse, intègre le prestigieux Opéra Garnier. Alors qu'elle répète l'Orpheus, un opéra maudit qui aurait été composé par le Fantôme de l'Opéra, elle tombe amoureuse d'un mystérieux pianiste.",
-   "bande_annonce": "https://youtu.be/jM2rEqHokXs?si=tjfz8Hk2KkvkIxl-"
   },
   "bd-quelques-mots-d-amour": {
    "titre": "Quelques Mots d'Amour",
@@ -564,62 +502,6 @@
   }
  },
  "seances": [
-  {
-   "date": "2026-11-24",
-   "time": "14:30",
-   "cinema": "BDL",
-   "movie": "bd-hope",
-   "version": "VF",
-   "screen": null
-  },
-  {
-   "date": "2026-11-24",
-   "time": "18:00",
-   "cinema": "BDL",
-   "movie": "1000012316",
-   "version": "VF",
-   "screen": null
-  },
-  {
-   "date": "2026-11-24",
-   "time": "20:30",
-   "cinema": "BDL",
-   "movie": "bd-le-fantome-de-l-opera",
-   "version": "VF",
-   "screen": null
-  },
-  {
-   "date": "2026-11-24",
-   "time": "20:30",
-   "cinema": "P1051",
-   "movie": "ga-158",
-   "version": "VF",
-   "screen": "Salle 1"
-  },
-  {
-   "date": "2026-11-24",
-   "time": "20:30",
-   "cinema": "P1051",
-   "movie": "ga-195",
-   "version": "VOSTFR",
-   "screen": "Salle 2"
-  },
-  {
-   "date": "2026-11-24",
-   "time": "21:00",
-   "cinema": "P1039",
-   "movie": "1000031925",
-   "version": "VF",
-   "screen": "SALLE 2"
-  },
-  {
-   "date": "2026-11-24",
-   "time": "21:00",
-   "cinema": "P1039",
-   "movie": "1000040172",
-   "version": "VF",
-   "screen": "SALLE 1"
-  },
   {
    "date": "2026-11-25",
    "time": "16:30",
@@ -971,6 +853,62 @@
    "movie": "ga-199",
    "version": "VF",
    "screen": "Salle 1"
+  },
+  {
+   "date": "2026-12-01",
+   "time": "14:30",
+   "cinema": "BDL",
+   "movie": "1000031925",
+   "version": "VF",
+   "screen": null
+  },
+  {
+   "date": "2026-12-01",
+   "time": "18:00",
+   "cinema": "BDL",
+   "movie": "bd-oreille",
+   "version": "VF",
+   "screen": null
+  },
+  {
+   "date": "2026-12-01",
+   "time": "20:30",
+   "cinema": "BDL",
+   "movie": "298024",
+   "version": "VOSTFR",
+   "screen": null
+  },
+  {
+   "date": "2026-12-01",
+   "time": "20:30",
+   "cinema": "P1039",
+   "movie": "1000004190",
+   "version": "VF",
+   "screen": "SALLE 1"
+  },
+  {
+   "date": "2026-12-01",
+   "time": "20:30",
+   "cinema": "P1039",
+   "movie": "1000040172",
+   "version": "VF",
+   "screen": "SALLE 2"
+  },
+  {
+   "date": "2026-12-01",
+   "time": "20:30",
+   "cinema": "P1051",
+   "movie": "ga-193",
+   "version": "VF",
+   "screen": "Salle 1"
+  },
+  {
+   "date": "2026-12-01",
+   "time": "20:30",
+   "cinema": "P1051",
+   "movie": "ga-198",
+   "version": "VF",
+   "screen": "Salle 2"
   }
  ],
  "erreurs": []
