@@ -1,7 +1,7 @@
 {
- "genere_le": "2026-11-25T15:44+01:00",
- "du": "2026-11-25",
- "au": "2026-12-01",
+ "genere_le": "2026-11-26T15:09+01:00",
+ "du": "2026-11-26",
+ "au": "2026-12-02",
  "cinemas": [
   {
    "id": "P1039",
@@ -201,25 +201,6 @@
     "Anaïde Rozam"
    ],
    "synopsis": "Stan, trentenaire d’origine modeste, rencontre pour la première fois la famille de sa petite amie Cléo. Il découvre alors la tradition familiale : à chaque anniversaire de France, l’impressionnante maîtresse de maison, on lance une partie de Trivial Pursuit ©. Il sait qu’il n’a aucune chance face à ces amoureux de la culture, mais il n’a pas le choix : toute la famille doit participer, sans exception. Qu’est-ce qui pourrait mal tourner ? Après tout ce n’est qu’un jeu de société…"
-  },
-  "321790": {
-   "titre": "Le Corset",
-   "titre_original": "Le Corset",
-   "affiche": "https://all.web.img.acsta.net/img/a7/96/a796a67caa5bdab1508d9207abaf5284.jpg",
-   "genres": "Animation, Famille",
-   "duree_min": 91,
-   "realisateurs": [
-    "Louis Clichy"
-   ],
-   "acteurs": [
-    "Gary Clichy",
-    "Rod Paradot",
-    "Brune Moulin",
-    "Dimitri Colas",
-    "Alexandre Astier",
-    "Aurélie Vassort"
-   ],
-   "synopsis": "Dans une ferme au cœur de la Beauce, Christophe, 11 ans, règle ses pas sur ceux de son père. Mais à l’école, à la maison, sur le tracteur, Christophe penche... et tombe. Il est obligé de porter un corset pour filer droit. Tandis que la ferme traverse des moments difficiles, Christophe grandit comme il peut. Il découvre la musique et fait la rencontre de Clara, avec qui tout semble devenir possible."
   },
   "322884": {
    "titre": "Wicker",
@@ -499,49 +480,47 @@
    "acteurs": [],
    "synopsis": "Peu de temps après l’instauration de la République de Chine, le pays est soumis à un contrôle militaire, et disputé par différents groupes. Tsao Wan est la fille d’un seigneur de guerre, mais elle appartient secrètement à un groupe de révolutionnaires.",
    "bande_annonce": "https://youtu.be/wQbp5ZGd-B8?si=kr-0k7dF-s4EJpl5"
+  },
+  "1000027620": {
+   "titre": "Un bon petit soldat",
+   "titre_original": "Un bon petit soldat",
+   "affiche": "https://all.web.img.acsta.net/img/e8/48/e848a27240bab4b74850de107f5fd010.jpg",
+   "genres": "Drame",
+   "duree_min": 102,
+   "realisateurs": [
+    "Stéphane Brizé"
+   ],
+   "acteurs": [
+    "Alba Rohrwacher",
+    "Vincent Lindon",
+    "Sharif Andoura",
+    "David Talbot",
+    "Renaud Petitjean",
+    "Benjamin Sarfati"
+   ],
+   "synopsis": "Nouvellement embauchée dans le département des Ressources Humaines d’une grande compagnie d’assurances, Carla Moretti doit travailler à réconcilier le bien-être des salariés avec les objectifs de performance de l’entreprise. Jusqu’à ce qu’elle découvre un cas de management toxique dans un des services dont elle a la responsabilité. Entre compromis et compromissions, la ligne de crête sur laquelle elle évolue devient de plus en plus étroite."
+  },
+  "313265": {
+   "titre": "Astérix - Le Royaume de Nubie",
+   "titre_original": "Astérix - Le Royaume de Nubie",
+   "affiche": "https://all.web.img.acsta.net/img/5d/82/5d822abd6caebdff0b065a16e93b7f76.jpg",
+   "genres": "Animation, Famille, Aventure, Comédie, Historique",
+   "duree_min": 86,
+   "realisateurs": [
+    "Alexandre Heboyan"
+   ],
+   "acteurs": [
+    "Christian Clavier",
+    "François-Xavier Demaison",
+    "Eye Haïdara",
+    "Issa Doumbia",
+    "Claudia Tagbo",
+    "Lucien Jean-Baptiste"
+   ],
+   "synopsis": "Un village d’irréductibles Gaulois résiste encore et toujours à l’envahisseur… Mais pour combien de temps encore ? Un élixir de jouvence accidentellement versé dans la potion magique a transformé tout le village en enfants ! Une seule solution pour Astérix et Obélix : voyager loin, très loin… Jusqu’au Royaume de Nubie, où se trouve l’antidote qui sauvera le village !"
   }
  },
  "seances": [
-  {
-   "date": "2026-11-25",
-   "time": "16:30",
-   "cinema": "P1042",
-   "movie": "312529",
-   "version": "VF",
-   "screen": "CINEMA DE MAUVEZIN"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "18:00",
-   "cinema": "BDL",
-   "movie": "bd-quelques-mots-d-amour",
-   "version": "VF",
-   "screen": null
-  },
-  {
-   "date": "2026-11-25",
-   "time": "20:30",
-   "cinema": "BDL",
-   "movie": "bd-clayface",
-   "version": "VOSTFR",
-   "screen": null
-  },
-  {
-   "date": "2026-11-25",
-   "time": "20:30",
-   "cinema": "P1039",
-   "movie": "316136",
-   "version": "VF",
-   "screen": "SALLE 1"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "20:30",
-   "cinema": "P1039",
-   "movie": "321790",
-   "version": "VF",
-   "screen": "SALLE 2"
-  },
   {
    "date": "2026-11-26",
    "time": "17:30",
@@ -909,6 +888,30 @@
    "movie": "ga-198",
    "version": "VF",
    "screen": "Salle 2"
+  },
+  {
+   "date": "2026-12-02",
+   "time": "16:30",
+   "cinema": "P1042",
+   "movie": "313265",
+   "version": "VF",
+   "screen": "CINEMA DE MAUVEZIN"
+  },
+  {
+   "date": "2026-12-02",
+   "time": "21:00",
+   "cinema": "P1039",
+   "movie": "1000027620",
+   "version": "VF",
+   "screen": "SALLE 2"
+  },
+  {
+   "date": "2026-12-02",
+   "time": "21:00",
+   "cinema": "P1039",
+   "movie": "1000039483",
+   "version": "VF",
+   "screen": "SALLE 1"
   }
  ],
  "erreurs": []
