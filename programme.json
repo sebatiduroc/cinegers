@@ -1,7 +1,7 @@
 {
- "genere_le": "2026-11-26T15:09+01:00",
- "du": "2026-11-26",
- "au": "2026-12-02",
+ "genere_le": "2026-11-27T15:07+01:00",
+ "du": "2026-11-27",
+ "au": "2026-12-03",
  "cinemas": [
   {
    "id": "P1039",
@@ -240,24 +240,6 @@
    ],
    "synopsis": "Jean Moulin est parachuté en France occupée pour unifier les réseaux de la Résistance, sous l’égide du général de Gaulle. Malgré ses efforts pour rester dans l’ombre, Moulin est trahi puis livré à la Gestapo à Lyon, dirigée par l’impitoyable Klaus Barbie. Torturé sans relâche, il ne cède jamais. Sa détermination silencieuse contribuera à galvaniser les forces de la Résistance et à faire naître un nouvel esprit de combat et de liberté en France…"
   },
-  "ga-192": {
-   "titre": "Wild Horse Nine",
-   "titre_original": "Wild Horse Nine",
-   "affiche": "https://cinegrandangle.fr/img/w780/hnBtud9vLr9arsUW8nxrzIz2uA4.jpg",
-   "genres": "Comédie, Crime, Thriller",
-   "duree_min": 117,
-   "realisateurs": [
-    "Martin McDonagh"
-   ],
-   "acteurs": [
-    "John Malkovich",
-    "Sam Rockwell",
-    "Steve Buscemi",
-    "Mariana di Girolamo",
-    "Ailín Salas"
-   ],
-   "synopsis": "Peu avant le coup d'État chilien de 1973, deux agents de la CIA, Chris et Lee, sont envoyés de Santiago vers l'île de Pâques par leur supérieur, MJ. Au milieu des statues emblématiques de l'île, tandis que ces partenaires de longue date sont confrontés à leur sombre passé et aux complots en cours, Chris noue une relation avec deux étudiantes rebelles qui menace de faire basculer dans le chaos leur séjour dans ce paradis isolé…"
-  },
   "ga-193": {
    "titre": "Camembert",
    "titre_original": "Camembert",
@@ -422,19 +404,6 @@
    "synopsis": "CLAYFACE raconte la terrifiante descente aux enfers d’un acteur prometteur d’Hollywood devenu un monstre animé par la vengeance. Une histoire intense qui explore la perte d’identité et d’humanité, les ravages de l’amour toxique et la face sombre de l’ambition scientifique",
    "bande_annonce": "https://youtu.be/C3HH7_FQlRY?si=PBFq2glwb984Nizp"
   },
-  "bd-outre-mer-terre-des-solutions": {
-   "titre": "Outre-mer Terre des Solutions",
-   "titre_original": null,
-   "affiche": null,
-   "genres": "Documentaire",
-   "duree_min": 52,
-   "realisateurs": [
-    "Hélène Trigueros"
-   ],
-   "acteurs": [],
-   "synopsis": "Pour se nourrir, les Outre-mer dépendent en grande partie des importations. Cette dépendance alimentaire est au cœur des enjeux de demain et reste l'une des préoccupations principales de la population.",
-   "bande_annonce": null
-  },
   "bd-gros-corps-en-mele": {
    "titre": "Gros corps en mele",
    "titre_original": null,
@@ -518,49 +487,27 @@
     "Lucien Jean-Baptiste"
    ],
    "synopsis": "Un village d’irréductibles Gaulois résiste encore et toujours à l’envahisseur… Mais pour combien de temps encore ? Un élixir de jouvence accidentellement versé dans la potion magique a transformé tout le village en enfants ! Une seule solution pour Astérix et Obélix : voyager loin, très loin… Jusqu’au Royaume de Nubie, où se trouve l’antidote qui sauvera le village !"
+  },
+  "ga-201": {
+   "titre": "Astérix : Le Royaume de Nubie",
+   "titre_original": "Astérix - Le Royaume de Nubie",
+   "affiche": "https://cinegrandangle.fr/img/w780/p6PFYB8TSFrVcF2eFTIt39cL4eK.jpg",
+   "genres": "Animation, Aventure, Comédie, Familial, Fantastique",
+   "duree_min": 86,
+   "realisateurs": [
+    "Alexandre Heboyan"
+   ],
+   "acteurs": [
+    "Christian Clavier",
+    "François-Xavier Demaison",
+    "Bernard Alane",
+    "Issa Doumbia",
+    "Eye Haïdara"
+   ],
+   "synopsis": "Quand un élixir de jouvence tombe par erreur dans leur potion magique, les irréductibles gaulois sont transformés en enfants et Astérix et Obélix doivent rejoindre le lointain royaume de Nubie pour trouver l'antidote et sauver le village."
   }
  },
  "seances": [
-  {
-   "date": "2026-11-26",
-   "time": "17:30",
-   "cinema": "P1051",
-   "movie": "ga-192",
-   "version": "VOSTFR",
-   "screen": "Salle 1"
-  },
-  {
-   "date": "2026-11-26",
-   "time": "19:00",
-   "cinema": "BDL",
-   "movie": "bd-outre-mer-terre-des-solutions",
-   "version": "VF",
-   "screen": null
-  },
-  {
-   "date": "2026-11-26",
-   "time": "19:00",
-   "cinema": "P1039",
-   "movie": "1000039483",
-   "version": "VF",
-   "screen": "SALLE 1"
-  },
-  {
-   "date": "2026-11-26",
-   "time": "19:00",
-   "cinema": "P1039",
-   "movie": "312529",
-   "version": "VF",
-   "screen": "SALLE 2"
-  },
-  {
-   "date": "2026-11-26",
-   "time": "20:00",
-   "cinema": "P1042",
-   "movie": "1000034007",
-   "version": "VF",
-   "screen": "CINEMA DE MAUVEZIN"
-  },
   {
    "date": "2026-11-27",
    "time": "15:30",
@@ -912,6 +859,46 @@
    "movie": "1000039483",
    "version": "VF",
    "screen": "SALLE 1"
+  },
+  {
+   "date": "2026-12-03",
+   "time": "17:30",
+   "cinema": "P1051",
+   "movie": "ga-186",
+   "version": "VF",
+   "screen": "Salle 2"
+  },
+  {
+   "date": "2026-12-03",
+   "time": "17:30",
+   "cinema": "P1051",
+   "movie": "ga-201",
+   "version": "VF",
+   "screen": "Salle 1"
+  },
+  {
+   "date": "2026-12-03",
+   "time": "20:00",
+   "cinema": "P1042",
+   "movie": "1000004190",
+   "version": "VF",
+   "screen": "CINEMA DE MAUVEZIN"
+  },
+  {
+   "date": "2026-12-03",
+   "time": "21:00",
+   "cinema": "P1039",
+   "movie": "1000020311",
+   "version": "VF",
+   "screen": "SALLE 1"
+  },
+  {
+   "date": "2026-12-03",
+   "time": "21:00",
+   "cinema": "P1039",
+   "movie": "298024",
+   "version": "VOSTFR",
+   "screen": "SALLE 2"
   }
  ],
  "erreurs": []
