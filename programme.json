@@ -1,7 +1,7 @@
 {
- "genere_le": "2026-11-27T15:07+01:00",
- "du": "2026-11-27",
- "au": "2026-12-03",
+ "genere_le": "2026-11-28T14:23+01:00",
+ "du": "2026-11-28",
+ "au": "2026-12-04",
  "cinemas": [
   {
    "id": "P1039",
@@ -378,19 +378,6 @@
    ],
    "synopsis": "Dans un village de pêcheurs, un bateau apparaît mystérieusement dans le vieux port. La Rose de Nevada, perdue en mer avec tous ses hommes il y a 30 ans, est de retour. Pour les quelques personnes qui s'en souviennent, c'est un signe. La Rose of Nevada doit reprendre la mer, peut-être qu'alors la chance du village dévasté tournera. Nick accepte un emploi à bord du bateau pour tenter de subvenir aux besoins de sa famille. À ses côtés, Liam, nouvellement arrivé, se joint à l'équipage, afin d'échapper à son passé. Ils prennent la mer et, après un voyage réussi, rentrent au port. Mais quelque chose ne va pas. Ils ont remonté le temps et les villageois les accueillent comme s'ils étaient l'équipage d'origine."
   },
-  "bd-quelques-mots-d-amour": {
-   "titre": "Quelques Mots d'Amour",
-   "titre_original": null,
-   "affiche": null,
-   "genres": "Drame",
-   "duree_min": 97,
-   "realisateurs": [
-    "Rudi Rosenberg"
-   ],
-   "acteurs": [],
-   "synopsis": "Sarcelles, 1995. Erika élève seule ses deux enfants. Sa fille Abigaëlle se persuade que son père, qu’elle n’a jamais connu, l’aime en silence quelque part. Lorsqu’elle se met en tête de le retrouver, Erika se sent obligée de l’aider, tout en cherchant à la protéger.",
-   "bande_annonce": "https://youtu.be/kBJGhdd0AeU?si=l-ZUiybTJiGtRu3f"
-  },
   "bd-clayface": {
    "titre": "Clayface",
    "titre_original": null,
@@ -505,65 +492,45 @@
     "Eye Haïdara"
    ],
    "synopsis": "Quand un élixir de jouvence tombe par erreur dans leur potion magique, les irréductibles gaulois sont transformés en enfants et Astérix et Obélix doivent rejoindre le lointain royaume de Nubie pour trouver l'antidote et sauver le village."
+  },
+  "ga-202": {
+   "titre": "Club Kid",
+   "titre_original": "Club Kid",
+   "affiche": "https://cinegrandangle.fr/img/w780/lfznSwfaXWLxW5TR09IoNV9OwhM.jpg",
+   "genres": "Comédie, Drame",
+   "duree_min": 122,
+   "realisateurs": [
+    "Jordan Firstman"
+   ],
+   "acteurs": [
+    "Jordan Firstman",
+    "Reggie Absolom",
+    "Cara Delevingne",
+    "Diego Calva",
+    "Kirby Howell-Baptiste"
+   ],
+   "synopsis": "Peter (Jordan Firstman), organisateur de soirées branchées à New York, mène une existence aussi effrénée qu’insouciante, rythmée par les nuits festives et les excès. Sa vie bascule lorsqu'Arlo, le fils de 10 ans dont il ignorait l'existence, frappe à sa porte. Dépassé par ce rôle de père qu'il n'avait jamais envisagé, il est rapidement conquis par le charme et la spontanéité de l’enfant. Au fil du temps, un lien aussi inattendu que profond se tisse entre eux, et Peter découvre enfin qu’il existe une vie au-delà de la prochaine fête."
+  },
+  "ga-203": {
+   "titre": "Hunger Games : Lever de soleil sur la moisson",
+   "titre_original": "The Hunger Games: Sunrise on the Reaping",
+   "affiche": "https://cinegrandangle.fr/img/w780/2crlvf4VsSQORysk1A8o2jBUduI.jpg",
+   "genres": "Science-Fiction, Action, Aventure",
+   "duree_min": 159,
+   "realisateurs": [
+    "Francis Lawrence"
+   ],
+   "acteurs": [
+    "Joseph Zada",
+    "Jesse Plemons",
+    "Ralph Fiennes",
+    "Glenn Close",
+    "Mckenna Grace"
+   ],
+   "synopsis": "Alors que le jour se lève sur les 50e Hunger Games annuels, la peur s'empare des districts de Panem. Cette année, en l'honneur du Quarter Quell, deux fois plus de tributs seront tirés au sort. Dans le District 12, Haymitch Abernathy essaie de ne pas trop penser à ses chances. Tout ce qui lui importe est d'être avec la fille qu'il aime. Mais lorsque qu'il est appelé, tous ses rêves s'effondrent. Il est arraché à sa famille et à son amour, transporté au Capitole avec les trois autres tributs du District 12 : une jeune amie qui est presque une sœur pour lui, un parieur compulsif, et la fille la plus prétentieuse de la ville. Alors que les Jeux commencent, Haymitch comprend qu'il a été piégé pour échouer. Mais il est prêt à se battre... et faire en sorte que ce combat résonne bien au-delà de l'arène."
   }
  },
  "seances": [
-  {
-   "date": "2026-11-27",
-   "time": "15:30",
-   "cinema": "BDL",
-   "movie": "bd-quelques-mots-d-amour",
-   "version": "VF",
-   "screen": null
-  },
-  {
-   "date": "2026-11-27",
-   "time": "18:00",
-   "cinema": "BDL",
-   "movie": "298024",
-   "version": "VF",
-   "screen": null
-  },
-  {
-   "date": "2026-11-27",
-   "time": "20:30",
-   "cinema": "BDL",
-   "movie": "bd-gros-corps-en-mele",
-   "version": "VF",
-   "screen": null
-  },
-  {
-   "date": "2026-11-27",
-   "time": "20:30",
-   "cinema": "P1039",
-   "movie": "1000034007",
-   "version": "VF",
-   "screen": "SALLE 1"
-  },
-  {
-   "date": "2026-11-27",
-   "time": "20:30",
-   "cinema": "P1039",
-   "movie": "1000040172",
-   "version": "VF",
-   "screen": "SALLE 2"
-  },
-  {
-   "date": "2026-11-27",
-   "time": "20:30",
-   "cinema": "P1051",
-   "movie": "ga-196",
-   "version": "VF",
-   "screen": "Salle 2"
-  },
-  {
-   "date": "2026-11-27",
-   "time": "20:30",
-   "cinema": "P1051",
-   "movie": "ga-197",
-   "version": "VF",
-   "screen": "Salle 1"
-  },
   {
    "date": "2026-11-28",
    "time": "17:00",
@@ -899,6 +866,38 @@
    "movie": "298024",
    "version": "VOSTFR",
    "screen": "SALLE 2"
+  },
+  {
+   "date": "2026-12-04",
+   "time": "20:30",
+   "cinema": "P1039",
+   "movie": "1000004190",
+   "version": "VF",
+   "screen": "SALLE 2"
+  },
+  {
+   "date": "2026-12-04",
+   "time": "20:30",
+   "cinema": "P1039",
+   "movie": "313265",
+   "version": "VF",
+   "screen": "SALLE 1"
+  },
+  {
+   "date": "2026-12-04",
+   "time": "20:30",
+   "cinema": "P1051",
+   "movie": "ga-202",
+   "version": "VF",
+   "screen": "Salle 2"
+  },
+  {
+   "date": "2026-12-04",
+   "time": "20:30",
+   "cinema": "P1051",
+   "movie": "ga-203",
+   "version": "VF",
+   "screen": "Salle 1"
   }
  ],
  "erreurs": []
